@@ -7,14 +7,14 @@ categories:
 comments: true
 excerpt_separator: <!--more-->
 ---
-So, 2020 (a lot of thanks to Covid-19 or Corona virus) has been mental **still** it doesn't seem to be ending 😭 !  
+So, 2020 (a lot of thanks to Covid-19 or Corona virus) has been mental **still**. it doesn't seem to be ending 😭 !  
 So today I thought I'd write about some things.
 
 <!--more-->
 
 ## Covid-19 Update
 So, we're now at level 2, meaning shopping can still be tricky; we have a tracker app so the gubbermint knows where we are at all times, and yeah ... whatever 😲  
-But, we're allow on the boat!  
+But, we're allowed on the boat!  
 
 For a while we couldn't do that, so there was a lot of beer drinking 🤣  
 Thanks [Good George](https://www.goodgeorge.co.nz/){: target="_blank"}🥂  
@@ -24,21 +24,20 @@ err .. I might've put on some weight 😲
 
 ## Employment update
 Well, things came to an end at the ISP I was working for.  
-And as such, right now (September 09) I'm not working full time.  
+And as such, right now (September 21) I'm not working full time.  
 
-One of the biggest annoyances was the job came with a 4x4, which was great for Snowboarding!  
-
-Alas I had to return the car. So, I thought to myself: "Myself, you need your own 4x4".  
+One of the biggest annoyances about losing the job, was it came with a 4x4, which was great for Snowboarding!  
+Alas, I had to return the car. So, I thought to myself: "Myself, you need your own 4x4".  
 
 So sitting in a boat with Matt one day, he says "I'm friends with Aaron Keppler, he's part of [Keppler motors](https://keppler.co.nz/){: target="_blank"}".  
 mean!!
 
 So Keppler offer me an amazing deal; trade my 4x2 Greatwall ute for a 4x4 Greatwall SUV.  
 
-So the Ute went to a new home, and I came home with a Greatwall x200, the same year as my ute! and the same Kms as my ute!  
+So the Ute went to a new home, and I came home with a Greatwall x200, the same year as my ute! and the same kms as my ute!  
 {% include thumbnail.html img="greatwall-x200.jpg" %}   
 
-Of course the sound system sucked in the x200 .. so a trip to [Mad Soundz](http://madsoundz.nz/){: target="_blank"} fixed that.  
+Of course the sound system sucked in the x200 .. so a trip to James at [Mad Soundz](http://madsoundz.nz/){: target="_blank"} fixed that.  
 {% include thumbnail.html img="x200_car_stereo.jpg" %}  
 
 
@@ -57,7 +56,7 @@ Well .. I had the meanest catch up with Susan Karl one night !
 Sheesh Susan, we go back a long way  😮   
 {% include thumbnail.html img="susank_and_me.jpg" %}   
 
-And, since I'm feeling a bit chucky 🤣 😝 I figured it was time to get off my arse!  
+And, since I'm feeling a bit chunky 🤣 😝 I figured it was time to get off my arse!  
 So Teresa Norgren and I have been walking. Most days, and every weekend for the last month or so I think.  
 
 Firstly, up Mount Maunganui.  
@@ -65,16 +64,16 @@ Firstly, up Mount Maunganui.
 
 Then up the Hakarimatas (the Huks).  
 {% include thumbnail.html img="me_teresa_huks.jpg" %}   
-OMG! 😮🤣😝  
+OMG! the huks 🤮😮🤣😝  
 
 Then up Pirongia.  
 {% include thumbnail.html img="me_teresa_pirongia.jpg" %}  
 
-Plenty of fishing.  
+I've done plenty of fishing.  
 {% include thumbnail.html img="2020-kahawai.jpg" %}  
 
 and of course .....  
-Lots of coffee drunk in the mild Winter weather though !  
+Lots of coffee drinking in the mild Winter weather !  
 {% include thumbnail.html img="me_at_the_mount.jpg" %}  
 
 Teresa and I took Lexi up Pukemokemoke last weekend.  

@@ -5,6 +5,9 @@ image: ta-bearded.png
 layout: page
 ---
 
+## African Cichlids October 2020
+{% include youtube.html id="WX-TN9tLyV0" %}
+
 ## African Congo tank (Ctenopoma and Bichir)
 {% include youtube.html id="l6h1l0yWQOk" %}
 

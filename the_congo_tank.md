@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Congo Tank
+title: The (not so) Congo Tank
 image: congo_tank.jpg
 comments: false
 author: paul
@@ -11,7 +11,7 @@ description: Current Congo fish I have
  <div class="col-md-9" >
 <h1>{{ page.title }}</h1>
 <p>
-This is a list of fish I keep in my Congo tank. I'll try to keep it updated. 🤣<br />
+This is a list of fish I keep in my "not so" Congo tank. I'll try to keep it updated. 🤣<br />
 <a data-toggle="tooltip" data-original-title="Check out my Aquarium videos" data-placement="bottom" href="/aquarium_videos.html" class="btn btn-primary btn-lg">Check out my Aquarium videos</a>
 </p>
  </div>

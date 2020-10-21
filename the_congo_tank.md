@@ -1,17 +1,19 @@
 ---
 layout: page
-title: The (not so) Congo Tank
+title: The Predatory Tank
 image: congo_tank.jpg
 comments: false
 author: paul
-description: Current Congo fish I have 
+description: Current Predatory fish I have 
 ---
 <div class="row w-100 rounded border bg-white d-print-none">
  <a href="javascript:;" data-image="{{ site.url }}{{ site.thumbnails }}{{ page.image }}" rel="lightbox" class="col-md-3 featuredImage m-0 p-0" style="background: url('{{ site.url }}{{ site.thumbnails }}{{ page.image }}') no-repeat center top / cover" data-toggle="tooltip" data-placement="bottom" data-original-title="Show larger image" >{{ page.image }}<img class="d-none d-print-block" src="{{ site.url }}{{ site.thumbnails }}{{ page.image }}" alt="{{ page.image }}" title="{{ page.image }}" /></a>
  <div class="col-md-9" >
 <h1>{{ page.title }}</h1>
 <p>
-This is a list of fish I keep in my "not so" Congo tank. I'll try to keep it updated. 🤣<br />
+This is a list of fish I keep in my Predatory tank.<br />
+Preeviously this was a Congo tank, but then a Datnoids came along 🥰.<br />
+I'll try to keep it updated. 🤣<br />
 <a data-toggle="tooltip" data-original-title="Check out my Aquarium videos" data-placement="bottom" href="/aquarium_videos.html" class="btn btn-primary btn-lg">Check out my Aquarium videos</a>
 </p>
  </div>

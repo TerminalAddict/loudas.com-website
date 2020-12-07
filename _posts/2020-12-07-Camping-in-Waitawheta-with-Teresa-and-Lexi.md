@@ -1,6 +1,6 @@
 ---
 title: Camping in Waitawheta with Teresa and Lexi
-image: camping_05_12_2020-13.jpg
+image: camping_05_12_2020-9.jpg
 categories:
   - Family
   - General-Life

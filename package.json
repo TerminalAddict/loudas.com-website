@@ -19,7 +19,7 @@
   "homepage": "https://github.com/TerminalAddict/loudas.com#readme",
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "datatables.net": "^1.10.21",
+    "datatables.net": "^1.10.22",
     "default-passive-events": "^1.0.10",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"

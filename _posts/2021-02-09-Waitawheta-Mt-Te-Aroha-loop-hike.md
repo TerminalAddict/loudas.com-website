@@ -105,7 +105,7 @@ And then head back on to the main Waitawheta track, and back home.
 * My absolutely awesome, world's lightest, most tramperist tent the world has ever know ( [Terra Nova Laser Competition](https://www.terra-nova.co.uk/all-tents/1-man-tents/laser-compact-1/){: target="_blank"} )[^1], is **absolutely not made for 2 people** 😆  
 * My Kovea stove takes ages to boil water compared to say a Jetboil. But then a Jetboil is $210 from [Equip Outdoors](https://www.equipoutdoors.co.nz/){: target="_blank"}.  
 * 6 hours is really my limit for walking. Any more than that and I might cry 😝  
-* Teresa was great to walk with. She keep her spirits up, and mine.  
+* Teresa was great to walk with. She keeps her spirits up, and mine.  
 * Walking is a great way of getting my thoughts together (I've come up with a plan for the future).
 
 

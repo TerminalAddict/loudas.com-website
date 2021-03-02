@@ -33,13 +33,13 @@ pagination:
                             </div>
                             <div class="d-none" itemprop="author" itemscope itemtype="https://schema.org/Person">
                                 <span itemprop="name">{{ author.name }}</span>
-                                <img src="{{ site.url }}{{author.pic}}" itemprop="image" alt="Photo of {{ author.name }}"/>
+                                <img src="{{ site.url }}{{author.pic}}" itemprop="image" width="250" height="250" alt="Photo of {{ author.name }}"/>
                                 <span itemprop="jobTitle">{{ author.position }}</span>
                             </div>
                           </a> - 
-                            <a href="{{ author.facebook }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook"><img alt="Facebook" src="{{ site.url }}/assets/images/icons/social_line/021-facebook.svg" class="svg16" /></a>
-                            <a href="{{ author.instagram }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Instagram"><img alt="Instagram" src="{{ site.url }}/assets/images/icons/social_line/025-instagram.svg" class="svg16" /></a>
-                            <a href="{{ author.youtube }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Youtube"><img alt="facebook" src="{{ site.url }}/assets/images/icons/social_line/011-youtube.svg" class="svg16" /></a>
+                            <a href="{{ author.facebook }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook"><img alt="Facebook" src="{{ site.url }}/assets/images/icons/social_line/021-facebook.svg" width="16" height="16" class="svg16" /></a>
+                            <a href="{{ author.instagram }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Instagram"><img alt="Instagram" src="{{ site.url }}/assets/images/icons/social_line/025-instagram.svg" width="16" height="16" class="svg16" /></a>
+                            <a href="{{ author.youtube }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Youtube"><img alt="facebook" src="{{ site.url }}/assets/images/icons/social_line/011-youtube.svg" width="16" height="16" class="svg16" /></a>
                           {% endif %}
                       </div>  |  <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished dateModified">{{ post.date | date_to_string }}</time>  |  {% for category in categories %}<a href="{{ site.url }}/categories/#{{category|slugize}}" rel="category tag" data-toggle="tooltip" data-original-title="Posts in category: {{category}}" data-placement="bottom">{{category}}</a>{% if forloop.last != true %},{% endif %} {% endfor %}
                     </div>
@@ -72,7 +72,7 @@ pagination:
             {% endfor %}
         {% endif %}
             <li class="page-item">
-                <a class="page-link text-nowrap">of {{ paginator.total_pages }}</a>
+                <a class="page-link text-nowrap" href="{{ site.url }}/page/{{ paginator.total_pages }}/index.html">of {{ paginator.total_pages }}</a>
             </li>
         {% if paginator.next_page %}
             <li class="page-item">

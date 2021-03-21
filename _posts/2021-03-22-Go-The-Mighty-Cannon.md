@@ -106,7 +106,7 @@ We also go for a walk and find some other 4x4ers up the river further.
 
 man! I am definitely coming back here, and bringing Matt with gun I reckon, because we are on the border of hunting grounds.  
 
-Time to light a fire and chuck some steaks on it!  
+Time to crank the fire and chuck some steaks on it!  
 {% include thumbnail.html img="20210320_172511.jpg" %}   
 {% include thumbnail.html img="20210320_174150.jpg" %}   
 {% include thumbnail.html img="20210320_181136.jpg" %}   
@@ -129,7 +129,7 @@ I also dig out the gopro Chinese copy camera 😏 (SJCAM SJ4000) and hang that o
 OMG !!! that was so much fun!!  
 I'm so keen to go do some more adventures !!!  
 
-The front camera on the Cannon means you can see in front of the truck while doing crazxy stuff!  
+The front camera on the Cannon means you can see in front of the truck while doing crazy stuff!  
 What a cool feature that I hadn't even considered until I used it.  
 
 Thanks heaps to Teresa for being Teresa and coming with me.  

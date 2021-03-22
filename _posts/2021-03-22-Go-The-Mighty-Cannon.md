@@ -64,7 +64,7 @@ But y'know .. I'm in high spirits coz I love this !!🥰
 
 ### Day Two Ruapehu and Waipakihi
 We head across the highway for lunch.  
-I mean, you kinda need 4wd to get up this road in summer (mind you it freezing, it doesn't feel like summer !!! 🥶), then again maybe you don't need 4wd.🤷  
+I mean, you kinda need 4wd to get up this road in summer (mind you it is freezing, it doesn't feel like summer !!! 🥶), then again maybe you don't need 4wd.🤷  
 The view is cool !!  
 
 {% include thumbnail.html img="20210320_114720.jpg" %}   
@@ -104,7 +104,7 @@ We find a sweet spot for the night, unpack and set up.
 We also go for a walk and find some other 4x4ers up the river further.  
 {% include thumbnail.html img="20210320_131858.jpg" %}   
 
-man! I am definitely coming back here, and bringing Matt with gun I reckon, because we are on the border of hunting grounds.  
+man! I am definitely coming back here, and bringing Matt with a gun I reckon, because we are on the border of hunting grounds.  
 
 Time to crank the fire and chuck some steaks on it!  
 {% include thumbnail.html img="20210320_172511.jpg" %}   
@@ -116,10 +116,10 @@ Then sit back, and drink whiskey from a tin cup, and relax.
 {% include thumbnail.html img="20210320_194000.jpg" %}   
 
 ### The way out
-The next morning is warm, dry, quiet, just lovely 💕  
+The next morning is warm, dry, quiet; just lovely 💕  
 {% include thumbnail.html img="20210320_130455.jpg" %}   
 
-A God bless her, Teresa offers to wade across the river to video my crossing. Awesome !!  
+And God bless her, Teresa offers to wade across the river to video my crossing. Awesome !!  
 I also dig out the gopro Chinese copy camera 😏 (SJCAM SJ4000) and hang that out the window to record.  
 
 {% include youtube.html id="1PI4rRNsk2c" %}  

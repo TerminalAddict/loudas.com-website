@@ -9,10 +9,12 @@ workbox.setConfig({
   modulePathPrefix: "/assets/js/workbox-v6.1.2/"
 });
 
-var CACHE_NAME='{{ site.site_name | slugify }}-cache-{{ "now" | date: "%s"  }}';
+// var CACHE_NAME='{{ site.site_name | slugify }}-cache-{{ "now" | date: "%s"  }}';
+var CACHE_NAME='{{ site.site_name | slugify }}-cache';
 
 // precache all mmy posts and pages + bundles.js
 workbox.precaching.precacheAndRoute([
+{url: '/', revision: '{{ "now" | date: "%s" }}'},
 {% for post in site.posts %}{url: '{{ post.url }}', revision: '{{ "now" | date: "%s" }}' },
 {% endfor %}{% for page in site.pages %}{% if page.url %}{url: '{{ page.url }}', revision: '{{ "now" | date: "%s" }}' },{% endif %}
 {% endfor %}{url: '/assets/js/bundle.js', revision: '{{ "now" | date: "%s" }}' }
@@ -66,7 +68,7 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
-        console.log('Opened cache');
+        // console.log('Opened cache');
         return cache.addAll(urlsToCache);
       })
   );
@@ -78,6 +80,7 @@ self.addEventListener('fetch', function(event) {
       .then(function(response) {
         // Cache hit - return response
         if (response) {
+          console.log('Returned from cache');
           return response;
         }
 
@@ -96,6 +99,7 @@ self.addEventListener('fetch', function(event) {
 
             caches.open(CACHE_NAME)
               .then(function(cache) {
+                console.log('Storing in cache');
                 cache.put(event.request, responseToCache);
               });
 

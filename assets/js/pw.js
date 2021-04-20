@@ -47,7 +47,8 @@ $(document).ready(function(){
     // register a service worker for offline content
     var now=Date.now();
     if ("serviceWorker" in navigator) {
-         navigator.serviceWorker.register('/sw.js?'+now).then(function() {
+         // navigator.serviceWorker.register('/sw.js?'+now).then(function() {
+         navigator.serviceWorker.register('/sw.js').then(function() {
              // console.log('CLIENT: service worker registration complete.');
             }, function () {
              console.log('CLIENT: service worker registration failure.');
@@ -56,7 +57,7 @@ $(document).ready(function(){
         console.log('CLIENT: service worker is not supported.');
     }
     $('#lp_collection').DataTable( {
-        "columnDefs": [ 
+        "columnDefs": [
             { "orderable": false, "targets": 0 }
         ],
         "order": [[ 1, "asc" ]],

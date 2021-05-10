@@ -2,11 +2,11 @@
 layout: blank
 ---
 
-importScripts("/assets/js/workbox-v6.1.2/workbox-sw.js");
+importScripts("/assets/js/workbox-v6.1.5/workbox-sw.js");
 
 workbox.setConfig({
   debug: false,
-  modulePathPrefix: "/assets/js/workbox-v6.1.2/"
+  modulePathPrefix: "/assets/js/workbox-v6.1.5/"
 });
 
 // var CACHE_NAME='{{ site.site_name | slugify }}-cache-{{ "now" | date: "%s"  }}';

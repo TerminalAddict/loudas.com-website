@@ -5,7 +5,7 @@ categories:
   - Outdoors
 comments: true
 ---
-A trip to bush in the new GWM Cannon showed up some need for better lighting.  
+A trip to bush in the new GWM Cannon showed up some need for better lighting 💡.  
 I arrived in the bush with Matt at a bit passed midnight; Matt had bought a spotlight with him, but I wanted something more permanent.  
 So a trip to [Super Cheap Auto](https://www.supercheapauto.co.nz/){: target="_blank"} , and I'm undertaking a new project!  
 Let's install a light bar on the GWM Cannon.  
@@ -59,7 +59,7 @@ If your "work lights" are powered separately to your light circuit, then you hav
 If your "work lights" are switched, but can only be switched during high beam, then you flick to low beam, and your work lights turn off. And you're a considerate person.  
 
 Also, I'm installing a single centred lightbar, so this will be illegal as a road light.  
-Oh, and I already have 4 blubs shining on high beam.  
+Oh, and I already have 4 bulbs shining on high beam.  
 
 Anyway, Read the [NZTA Laws about extra lights](/assets/led-light-bars.pdf){: target="_blank"} here.  
 

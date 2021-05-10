@@ -109,3 +109,10 @@ self.addEventListener('fetch', function(event) {
       })
     );
 });
+
+self.addEventListener('message', (event) => {
+  console.log('Message received');
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    return self.skipWaiting();
+  }
+});

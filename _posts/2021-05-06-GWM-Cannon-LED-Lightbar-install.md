@@ -29,7 +29,7 @@ I also used the weekend to try a new adventure tent that I bought from [Equip Ou
 
 It's a sweet tent, with heaps of room, and weights 2.1kgs! That's awesome!!!  
 
-Back to the lights:  
+Back to the lights 💡:  
 The goal is to have a lightbar that turns on when I flick on high beam, but also has a manual "off switch", so I can have high beam on without the lightbar turned.  
 
 ### The Law

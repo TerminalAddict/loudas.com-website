@@ -31,7 +31,7 @@ And some shopping (Thanks [AliExpress](https://www.aliexpress.com){: target="_bl
 
 And .. my new favourite shop !!!  
 [Co-Mac](https://www.comac.co.nz){: target="_blank" %}  
-This store is amazing ! They have everything you could possibly imaging for fabrication.  
+This store is amazing ! They have everything you could possibly imagine for fabrication.  
 In my case, recessed tie downs, slam door latches, pop-up handles, gas struts .. etc etc etc.
 
 Then Bipin and I start work!  

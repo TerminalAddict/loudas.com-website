@@ -18,6 +18,13 @@ $(document).ready(function(){
             $('#back-to-top').tooltip('show');
         });
 
+    $('img.thumbnail').each(function(){
+        var currWidth = this.naturalWidth;
+        var currHeight = this.naturalHeight;
+        $(this).attr('height', currHeight+'px');
+        $(this).attr('width', currWidth+'px');
+    });
+
      $.ajaxSetup({ cache: false });
      $('#query').keyup(function(){
         $('#queryResult').html('');

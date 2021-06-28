@@ -51,7 +51,7 @@ And here is the central locking unit installed:
 {% include thumbnail.html img="central-locking-installed.jpg" %}  
 
 ## Conclusion
-And, here is the finished prodict:  
+And, here is the finished product:  
 {% include thumbnail.html img="20210621_140726.jpg" %}  
 {% include thumbnail.html img="20210621_140808.jpg" %}  
 {% include thumbnail.html img="20210621_142328.jpg" %}  

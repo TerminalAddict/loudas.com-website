@@ -13,7 +13,7 @@ Born: 15 April, 2021
 
 
 Not a lot more to say really.  
-Ashleigh (Mum, and my daughter), PK (Dad), and Kashious are doing super well.  
+Ashleigh (Mum, and my daughter), PJ (Dad), and Kashious are doing super well.  
 
 {% include thumbnail.html img="206079546_493477431710776_7206249339887793893_n.jpg" %}  
 {% include thumbnail.html img="175397906_10225038281293679_2937953047183448157_n.jpg" %}  

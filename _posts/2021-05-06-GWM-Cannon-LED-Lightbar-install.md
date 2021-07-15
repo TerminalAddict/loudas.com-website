@@ -3,6 +3,8 @@ title: GWM Cannon - LED Lightbar
 image: GWM_Cannon_parked_on_the_river.jpg
 categories:
   - Outdoors
+tags:
+  - GWM Cannon
 comments: true
 ---
 A trip to bush in the new GWM Cannon showed up some need for better lighting 💡.  

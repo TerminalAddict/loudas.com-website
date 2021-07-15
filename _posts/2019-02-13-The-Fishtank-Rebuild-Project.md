@@ -5,6 +5,8 @@ comments: true
 categories:
   - Family
   - General-Life
+tags:
+  - Tropical Fish
 image: fishtank-part-construction.jpg
 ---
 So it all started with Matt giving us a fishtank, read about it here: [Aquariums are the best]({% post_url 2018-02-11-aquariums-are-the-best %}).

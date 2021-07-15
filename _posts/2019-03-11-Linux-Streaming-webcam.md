@@ -4,6 +4,8 @@ image: Fishcam.png
 categories:
   - Family
   - General-Life
+tags:
+  - Tropical Fish
 comments: true
 ---
 So as I mentioned in [The Fishtank Rebuild Project]({% post_url 2019-02-13-The-Fishtank-Rebuild-Project %}), I bought a big tank!

@@ -3,6 +3,8 @@ title: GWM Cannon Sub Woofers
 image: 20210228_142911.jpg
 categories:
   - Outdoors
+tags:
+  - GWM Cannon
 comments: true
 ---
 The all new GWM Cannon ( Poer / Pao / P-Series / Ute ) has a terrible sound system. I mean, I guess if you're buying a truck, good sounds aren't the most important thing?!?  

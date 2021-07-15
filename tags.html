@@ -1,0 +1,20 @@
+---
+layout: default
+title: Tag Cloud
+image: /assets/images/404-Pauls.jpg
+author: paul
+---
+<h1>Tag Cloud</h1>
+
+{% assign tags = site.tags | sort %}
+<div class="row w-100">
+    <div class="col-md-12 pt-3 single_post_content bg-white p-2 rounded border">
+		<div class="archive-group">
+		{% for tag in tags %}
+			<div class="list-group w-100">
+			  <a data-toggle="tooltip" data-placement="bottom" data-original-title="" class="list-group-item list-group-item-action w-100" href="/tag/{{ tag | first | slugify }}/index.html" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>
+			</div>
+		{% endfor %}
+		</div>
+    </div>
+</div>

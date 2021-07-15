@@ -3,6 +3,8 @@ title: GWM Cannon - Bullbars, Decals, &amp; Reverse Lights
 image: 20210708_113203.jpg
 categories:
   - Outdoors
+tags:
+  - GWM Cannon
 comments: true
 ---
 So, one day while I was meandering around on the internets, specifically the Facebook Group [GWM Cannon Owners of New Zealand](https://www.facebook.com/groups/713023605907362){: target="_blank"}, somebody mentioned they'd like extra reversing lights.  

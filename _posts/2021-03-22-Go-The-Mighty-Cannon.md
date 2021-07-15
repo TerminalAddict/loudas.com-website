@@ -3,6 +3,8 @@ title: GO! The Mighty Cannon
 image: the_mighty_cannon.jpg
 categories:
   - Outdoors
+tags:
+  - GWM Cannon
 comments: true
 ---
 The all new GWM Cannon ( Poer / Pao / P-Series ) gets a 4x4 work out this weekend.  

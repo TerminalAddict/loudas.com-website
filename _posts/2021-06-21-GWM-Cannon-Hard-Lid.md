@@ -3,6 +3,8 @@ title: GWM Cannon - Hard lid
 image: truck_norris.jpg
 categories:
   - Outdoors
+tags:
+  - GWM Cannon
 comments: true
 ---
 So after a few trips away, and not being able to lock things in the back, and having committed to a [light bar]({% post_url 2021-05-06-GWM-Cannon-LED-Lightbar-install %}) on my roof racks (which means I can't carry my snow board 😒), I finally caved to installing a hard lid.  

@@ -24,3 +24,5 @@
         subhref: "/the_congo_tank.html"
 - name: Contact
   link: /contact.html
+- name: Tag Cloud
+  link: /tags.html

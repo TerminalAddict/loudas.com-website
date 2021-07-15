@@ -4,6 +4,8 @@ image: Datnoid.jpg
 categories:
   - Family
   - General-Life
+tags:
+  - Tropical Fish
 comments: true
 ---
 So just like in [The Fishtank Rebuild Project]({% post_url 2019-02-13-The-Fishtank-Rebuild-Project %}), and in [Aquariums are the best]({% post_url 2018-02-11-aquariums-are-the-best %}) ... I like fish.  

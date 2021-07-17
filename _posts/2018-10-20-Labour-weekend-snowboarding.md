@@ -6,6 +6,8 @@ image: 20180901_115757.jpg
 categories:
   - Outdoors
   - Family
+tags:
+  - Snow
 ---
 So Labour weekend (October) also brings with it the end of the snow season in NZ, _sad face_. But, _happy face_, lots of sunshine!
 I've had such an awesome Winter this year; learning to snowboard, and then snowboarding almost every weekend!

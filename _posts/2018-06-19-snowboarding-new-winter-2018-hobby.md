@@ -7,6 +7,8 @@ categories:
   - Family
   - Outdoors
 comments: true
+tags:
+  - Snow
 ---
 So Winter 2018 is here, and with it, an invitation to go to France for Christmas !
 

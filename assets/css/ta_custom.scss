@@ -551,6 +551,9 @@ background-color: #f9f9f9;
 .post-meta { font-size: 0.8rem; }
 h3.comment_author { font-size: 1.5em; }
 
+#comments article.comment {
+    scroll-margin-top: 150px;
+}
 .hidden { display:none; }
 
 .categoriesList a {

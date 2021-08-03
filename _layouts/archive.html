@@ -4,7 +4,7 @@ title: Archives
 {% if page.title %}
     {% assign include_image = page.title | append: ".jpg" %}
 {%else %}
-    {% assign include_image = "ta-bearded.png" %}
+    {% assign include_image = "bearded.jpg" %}
 {% endif %}
 {% include header_no_search.html image=include_image %}
 <h1>Archive of posts from {{ page.title }}{{ page.date | date: "%B %Y" }}</h1>

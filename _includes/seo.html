@@ -1,5 +1,11 @@
 <!-- begin _includes/seo.html -->
 
+{%- if include.image -%}
+    {%- assign this_image = include.image -%}
+{%- else -%}
+    {%- assign this_image = page.image -%}
+{%- endif -%}
+
 {%- if site.url -%}
   {%- assign seo_url = site.url | append: site.baseurl -%}
 {%- endif -%}
@@ -50,7 +56,7 @@
 <meta property="og:site_name" content="{{ site.site_name }}" />
 <meta property="og:title" content="{{ page.title | default: site.site_name | markdownify | strip_html | strip_newlines | escape_once }}" />
 <meta property="og:url" content="{{ canonical_url }}" />
-<meta property="og:image" content="{{ site.url }}{{ site.post-images }}{{ page.image }}" />
+<meta property="og:image" content="{{ site.url }}{{ site.post-images }}{{ this_image }}" />
 <meta property="og:image:alt" content="{{ page.title | default: site.site_name | markdownify | strip_html | strip_newlines | escape_once }} - {{ seo_description }}" />
 <meta property="og:description" content="{{ seo_description }}" />
 
@@ -60,7 +66,7 @@
   <meta name="twitter:description" content="{{ seo_description }}" />
   <meta name="twitter:url" content="{{ canonical_url }}" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="{{ site.url }}{{ post-images }}{{ page.image }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ post-images }}{{ this_image }}" />
   {% if author_twitter %}
     <meta name="twitter:creator" content="@{{ author_twitter }}" />
   {% endif %}
@@ -104,7 +110,7 @@
 		},
       "@type": "{{ og_type }}",
       "url": "{{ canonical_url }}",
-      "image": "{{ site.url }}{{ site.post-images }}{{ page.image }}",
+      "image": "{{ site.url }}{{ site.post-images }}{{ this_image }}",
 	  "publisher":
 		{
 		   "@type": "Organization",

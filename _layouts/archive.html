@@ -1,8 +1,13 @@
 ---
-layout: no_search
 title: Archives
 ---
-<h1>Archive of posts from {{ page.date | date: "%B %Y" }}</h1>
+{% if page.title %}
+    {% assign include_image = page.title | append: ".jpg" %}
+{%else %}
+    {% assign include_image = "ta-bearded.png" %}
+{% endif %}
+{% include header_no_search.html image=include_image %}
+<h1>Archive of posts from {{ page.title }}{{ page.date | date: "%B %Y" }}</h1>
 
 <div id="archives" itemscope itemtype="http://schema.org/Article">
   <div class="archive-group">
@@ -14,3 +19,4 @@ title: Archives
     </div>
   </div>
 </div>
+{% include footer_page.html %}

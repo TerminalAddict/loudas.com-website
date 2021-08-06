@@ -75,3 +75,6 @@ And it fits in with my white/silver themed truck!
 
 {% include thumbnail.html img="20210804_125144.jpg" %}  
 
+And here's a video walk about:  
+
+{% include youtube.html id="3gm4zRHDjBg" %}

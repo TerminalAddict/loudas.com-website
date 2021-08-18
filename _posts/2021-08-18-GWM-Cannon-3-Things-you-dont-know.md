@@ -50,6 +50,8 @@ Essentially, Cross-Country Expert Mode:
 
 Basically, apart from centre diff lock, no one really know what else this does.  
 
+To engage Cross-Country Expert mode, hold down the traction control button for 2-5 seconds.  
+
 > <br />  
 > Use with caution !!!!<br />
 > DO NOT use this on the tarseal.<br />

@@ -19,7 +19,8 @@ I use window cleaner as it has a high alcohol content, so will evaporate quickly
 
 Then get to it ❗
 
-{% include thumbnail.html img="20210822_143920.jpg" %}
+{% include thumbnail.html img="20210822_143920.jpg" %}  
+{% include thumbnail.html img="IMG_1731.jpg" %}  
 
 ## Another sweet video
 

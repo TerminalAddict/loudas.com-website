@@ -62,7 +62,7 @@ We discussed.
 We did some small road/wind testing.  
 And we decided that simply "breaking" the wind should be enough.  
 
-Well I could do that be re-relocating my lightbar to the front, and putting in a spacer using 32mm alloy!  
+Well I could do that by re-relocating my lightbar to the front, and putting in a spacer using 32mm alloy!  
 
 {% include thumbnail.html img="20210804_121032.jpg" %}  
 

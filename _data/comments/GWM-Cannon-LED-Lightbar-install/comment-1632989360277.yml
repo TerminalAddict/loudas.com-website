@@ -1,0 +1,11 @@
+_id: b6746cc0-21c5-11ec-a683-fbebd5c38bb2
+_parent: >-
+  https://www.loudas.com/outdoors/2021/05/06/GWM-Cannon-LED-Lightbar-install.html
+message: "Hi Guys,\r\nthe red wire is actually not important for light bar implemntation, Yelow/Green wire is. When High-beam is on Yelow/green wire is grounded. When you have standard harness with electronics light-bar switch you need to put:\r\nRED wire to +12V behind fuse.\r\nWHITE wire clamp or solder onto Yellow/Green. \r\nDiode bridging relay coil will be beneficial to avoid spikes which can eventually destroy HighBeam LED.\r\n\r\nEven better solution is to drive LED BAR relay with additional small relay or solid state circuit. \r\n\r\nI personally used additional micro relay."
+name: Jindra
+email: c627eb41804e408b9e4a19d2b4059e74
+url: ''
+hidden: ''
+g-recaptcha-response: >-
+  03AGdBq275BQT9udgiJ70Nwcb_Fv0ieuQByKAQm0-S4cKHVLXBQyroQZ_8VmL-JV8SjlZMedTMLypdJkx0pEPA6qt-McGyyFvxIyWS1lAQUSIYVqweDeBYmdxRog5p1fcVftdxTFJkZCXrJxp1Ap0KsZEVSMzAY-gC8aX7DuSy-ECySSUfaASA5GIUJif29wCeGVVbaQAgxfPBvSby6UclRXZP45VzwjeeIm2Ssqxjcxn1NE43Hvchj6h0--mJT0LNvRnk7QQe5EqFjUKvJnlMSjHrReh3zAtTSpWwhZsWjaQr_8M9CSsTRnQrCN3BJT0rKR6u4Uy4m2AYNWda-k5pOpgu8lRvyEVcx5nMf60sVKzsg_8-39DxhW1pNmx22FCX8jlM1e6otwvWXQVgXibBa9R0N_EY7TaJKgnaEG5EPNOHPFnWV-lkZkBHYYb1yLtxcKSmDBAR5XzK
+date: '2021-09-30T08:09:20.193Z'

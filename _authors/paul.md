@@ -1,6 +1,7 @@
 ---
 short_name: paul
 name: Paul Willard
+fullname: Paul Willard
 author: paul
 position: Senior Network and Systems Manager
 pic: /assets/images/paul.jpg 

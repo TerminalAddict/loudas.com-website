@@ -24,16 +24,16 @@ pagination:
                       <h2 class="entry-title"><a itemprop="url mainEntityOfPage" href="{{site.url}}{{post.url}}" data-toggle="tooltip" data-original-title="{{post.title}}" data-placement="bottom"><span itemprop="headline">{{post.title}}</span></a></h2>
                       <div class="post-meta"><span>by </span>
                       <div class="d-inline author vcard" itemprop="author">
-                          {% if author %}<a href="{{ site.url }}{{ author.url }}" title="Posts by {{ author.name }}" rel="author" data-toggle="tooltip" data-original-title="Posts by {{ author.name }}" data-placement="bottom">
+                          {% if author %}<a href="{{ site.url }}{{ author.url }}" title="Posts by {{ author.fullname }}" rel="author" data-toggle="tooltip" data-original-title="Posts by {{ author.fullname }}" data-placement="bottom">
                             <div class="d-inline" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-                                <span itemprop="name">{{ author.name }}</span>
+                                <span itemprop="name">{{ author.fullname }}</span>
                                 <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject" class="hidden">
                                     <link itemprop="url" href="{{ site.url }}{{author.pic}}" />
                                 </div>
                             </div>
                             <div class="d-none" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                                <span itemprop="name">{{ author.name }}</span>
-                                <img src="{{ site.url }}{{author.pic}}" itemprop="image" width="250" height="250" alt="Photo of {{ author.name }}"/>
+                                <span itemprop="name">{{ author.fullname }}</span>
+                                <img src="{{ site.url }}{{author.pic}}" itemprop="image" width="250" height="250" alt="Photo of {{ author.fullname }}"/>
                                 <span itemprop="jobTitle">{{ author.position }}</span>
                             </div>
                           </a> - 

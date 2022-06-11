@@ -13,7 +13,7 @@ Boy was that wrong! 😅
 
 So, I love Whangamõmona. I love the road, I love the hotel. I ridden State Highway 43 to Whangamõmona on every motorcycle I've owned.  
 This time it was the truck's turn!  
-And this time I was doing Whangamõmona roaad, which IS NOT State Highway 43!  
+And this time I was doing Whangamõmona road, which IS NOT State Highway 43!  
 
 I did some research before I left of course.  
 Whangamõmona road is described as a difficult track, prone to slips, and dangerous obstacles many metres above a river, with steep drop offs.  

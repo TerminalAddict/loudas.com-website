@@ -5,6 +5,9 @@ image: ta-bearded.png
 layout: page
 ---
 
+## Fahaka Puffer July 2022
+{% include youtube.html id="DuiTVIC6XMQ" %}
+
 ## African Cichlids October 2020
 {% include youtube.html id="WX-TN9tLyV0" %}
 

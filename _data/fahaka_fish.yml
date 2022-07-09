@@ -1,0 +1,13 @@
+- name: "Fahaka Puffer"
+  scientific_name: "Tetraodon lineatus"
+  image: fahaka.jpg
+  habitat: "It occurs in various lakes and rivers; and is found in both open water and sheltered, heavily vegetated areas. Found in Egypt, Kenya, Sudan, Senegal, Ghana, Gambia, Cameroon, Nigeria, Niger, Chad, Sierra Leone, Burkina Faso and Guinea Bissau."
+  size: "430 mm."
+  link: https://www.seriouslyfish.com/species/tetraodon-lineatus/
+
+- name: "Common Pleco"
+  scientific_name: "Hypostomus plecostomoides LDA42, LDA38"
+  image: pleco.jpg 
+  habitat: "It’s usually found living in and around pieces of driftwood in flowing parts of rivers and streams."
+  size: "300 mm."
+  link: https://www.seriouslyfish.com/species/hypostomus-plecostomoides/

@@ -12,6 +12,8 @@
         subhref: "/aquarium_videos.html"
 - name: Fish
   subcategories:
+      - subtitle: Fahaka Puffer
+        subhref: "/fahaka_puffer.html"
       - subtitle: Monster Fish
         subhref: "/the_monsters_under_the_house.html"
       - subtitle: Friendly Fish

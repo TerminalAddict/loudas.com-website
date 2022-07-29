@@ -6,6 +6,8 @@
   subcategories:
       - subtitle: General Videos
         subhref: "/general_videos.html"
+      - subtitle: GWM Cannon Videos
+        subhref: "/GWM_Cannon_videos.html"
       - subtitle: Dance Videos
         subhref: "/dance_videos.html"
       - subtitle: Fish Videos

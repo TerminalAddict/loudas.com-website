@@ -4,6 +4,65 @@ title: GWM Cannon videos
 image: ta-bearded.png
 layout: page
 ---
+<style>
+.contenedor-slide {
+    height: 40em;
+}
+.video-slider {
+    width: 100%;
+    height: 40em;
+    background: #444;
+    position: relative;
+    overflow: hidden;
+}
+.slide {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.slide:first-child{
+    left: 0;
+}
+.video{
+    height: 100%;
+    width: 100%;
+    border:0;
+}
+.slide-arrow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 45%;
+    width: 15%;
+    cursor: pointer;
+    opacity: .2;
+}
+.slide-arrow:hover{
+    opacity: 1;
+}
+.slide-arrow:after{
+    content: "\003c";
+    text-align: center;
+    display: block;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 3em;
+}
+.slide-arrow.right:after{
+    content: "\003e";
+}
+.slide-arrow.right{
+    left: auto;
+    right: 0;
+}
+</style>
 <?php 
 include_once("/var/www/out_of_http_files/GWM_Cannon_videos.php");
 
@@ -14,96 +73,69 @@ $video_items=$results_array["items"];
 
 ?>
 
-<div class="videoContainer">
-<iframe title="<?php echo $video_items[0]["snippet"]["title"] ?>" class="video" src="https://www.youtube.com/embed/<?php echo $video_items[0]["contentDetails"]["videoId"] ?>" allowfullscreen></iframe>
-</div>
-
-
 <div class="container contenedor-slide">
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
-    <div class="carousel-inner">
-
-<?php 
-foreach ($video_items as $video) {
-    echo '
-      <div class="carousel-item">
-        <img class="d-block w-100" width="'.$video["snippet"]["thumbnails"]["medium"]["width"].'" height="'.         $video["snippet"]["thumbnails"]["medium"]["height"].'" src="'.$video["snippet"]["thumbnails"]["medium"]["url"].'" alt="'.$video["snippet"]["title"].'" />
-      </div>
-';
-
-}
-
+    <div class="video-slider">
+    <!-- START OF SLIDES -->
+<?php
 $count=1;
 foreach ($video_items as $video) {
     echo '
-      <div class="carousel-item">
-        <div class="carousel-video-inner embed-responsive embed-responsive-16by9">
-          <div class="video-player" id="player'.$count.'" data-video-id="'.$video["contentDetails"]["videoId"].'"></div>
-        </div>
-      </div>
+    <div class="slide">
+        <iframe class="video" id="player'.$count.'" src="https://www.youtube.com/embed/'.$video["contentDetails"]["videoId"].'?ecver=2&enablejsapi=1" ></iframe>
+    </div>
 ';
     $count++;
 }
 ?>
-
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+    <!-- END OF SLIDES -->
+    <div class="slide-arrow left"></div>
+    <div class="slide-arrow right"></div>
 </div>
 
+
+<!--
+<?php
+foreach ($video_items as $video) {
+    echo "https://www.youtube.com/embed/".$video["contentDetails"]["videoId"]."\n";
+}
+?>
+-->
+
 <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const tag = document.createElement("script");
+    const firstScriptTag = document.getElementsByTagName("script")[0];
 
-const videos = [];
-const tag = document.createElement("script");
-const firstScriptTag = document.getElementsByTagName("script")[0];
+    var pos = 0,
+        slides = $('.slide'),
+        numOfSlides = slides.length;
 
-tag.src = "https://www.youtube.com/iframe_api";
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    function nextSlide() {
+        // `[]` returns a vanilla DOM object from a jQuery object/collection
+        slides[pos].video.stopVideo()
+        slides.eq(pos).animate({ left: '-100%' }, 500);
+        pos = (pos >= numOfSlides - 1 ? 0 : ++pos);
+        slides.eq(pos).css({ left: '100%' }).animate({ left: 0 }, 500);
+    }
 
-// YouTube wants this function, don't rename it
+    function previousSlide() {
+        slides[pos].video.stopVideo()
+        slides.eq(pos).animate({ left: '100%' }, 500);
+        pos = (pos == 0 ? numOfSlides - 1 : --pos);
+        slides.eq(pos).css({ left: '-100%' }).animate({ left: 0 }, 500);
+    }
+
+    $('.left').click(previousSlide);
+    $('.right').click(nextSlide);
+})
+
 function onYouTubeIframeAPIReady() {
-  const slides = Array.from(document.querySelectorAll(".carousel-item"));
-  slides.forEach((slide, index) => {
-    // does this slide have a video?
-    const video = slide.querySelector(".video-player");
-    if (video && video.dataset) {
-      const player = createPlayer({
-        id: video.id,
-        videoId: video.dataset.videoId,
-      });
-      videos.push({ player, index });
-    }
-  });
+    $('.slide').each(function (index, slide) {
+        // Get the `.video` element inside each `.slide`
+        var iframe = $(slide).find('.video')[0]
+        // Create a new YT.Player from the iFrame, and store it on the `.slide` DOM object
+        slide.video = new YT.Player(iframe)
+    })
 }
-
-function createPlayer(playerInfo) {
-  return new YT.Player(playerInfo.id, {
-    videoId: playerInfo.videoId,
-    playerVars: {
-      showinfo: 0,
-    },
-  });
-}
-
-function theBigPause() {
-  videos.map((video) => video.player.pauseVideo());
-}
-
-$(function () {
-  $(".carousel").on("slide.bs.carousel", function (e) {
-    theBigPause();
-    const next = $(e.relatedTarget).index();
-    const video = videos.filter((v) => v.index === next)[0];
-    if (video) {
-      video.player.playVideo();
-    }
-  });
-});
 </script>
+

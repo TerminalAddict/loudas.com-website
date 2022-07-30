@@ -64,6 +64,11 @@ layout: page
 }
 </style>
 <?php 
+/*
+ *
+Y2F0IC92YXIvd3d3L291dF9vZl9odHRwX2ZpbGVzL0dXTV9DYW5ub25fdmlkZW9zLnBocAo8P3BocAokdXJsID0gImh0dHBzOi8veW91dHViZS5nb29nbGVhcGlzLmNvbS95b3V0dWJlL3YzL3BsYXlsaXN0SXRlbXM/cGFydD1zbmlwcGV0JTJDY29udGVudERldGFpbHMmbWF4UmVzdWx0cz0yNSZwbGF5bGlzdElkPVBMaGZZVUlqLTk1MkpQTXhNZjdFRXlSWjB3c25ueEJVd3Yma2V5PUFJemFTeUJFZjFGc3pGRWR4YlEtNXpaNG5GN0pqWkV3c3NLcVR3SSI7Cj8+
+ *
+ */
 include_once("/var/www/out_of_http_files/GWM_Cannon_videos.php");
 
 $result = file_get_contents($url);

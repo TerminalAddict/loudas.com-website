@@ -74,6 +74,7 @@ $video_items=$results_array["items"];
 ?>
 
 <div class="container contenedor-slide">
+    <h3 id="my-gwm-cannon-videos">My GWM Cannon Videos</h3>
     <div class="video-slider">
     <!-- START OF SLIDES -->
 <?php
@@ -92,7 +93,10 @@ foreach ($video_items as $video) {
     <div class="slide-arrow right"></div>
 </div>
 
-
+<div class="container text-center w-100 pt-3">
+        <a href="#!" class="left float-left btn btn-primary btn-lg" role="button" title="Previous Video" data-toggle="tooltip" data-placement="right" data-animation="false" data-original-title="Previous Video" style="display: inline;">👈 Previous VIdeo</a>
+        <a href="#!" class="right float-right btn btn-primary btn-lg" role="button" title="Next Video" data-toggle="tooltip" data-placement="left" data-animation="false" data-original-title="Next Video" style="display: inline;">👉 Next Video</a>
+</div>
 <!--
 <?php
 foreach ($video_items as $video) {
@@ -105,6 +109,8 @@ foreach ($video_items as $video) {
 document.addEventListener('DOMContentLoaded', function () {
     const tag = document.createElement("script");
     const firstScriptTag = document.getElementsByTagName("script")[0];
+    tag.src = "https://www.youtube.com/iframe_api";
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
     var pos = 0,
         slides = $('.slide'),

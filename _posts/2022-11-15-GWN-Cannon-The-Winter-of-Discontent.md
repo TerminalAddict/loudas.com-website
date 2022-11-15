@@ -26,7 +26,7 @@ So, yeah ... I did a fair bit of damage at Woodhiil; lots of panels were bashed,
 Shout out to the team at [Bernie Fama Panel and Paint](https://www.berniefama.co.nz/){: target="blank" }.  
 They did a wonderful job of repair, and my truck is back to it's previous glorious state.  
   
-Also, and shout out to [Hamilton Stripes and Signs](https://www.stripesandsigns.co.nz/){: target="blank"}.  
+Also, a shout out to [Hamilton Stripes and Signs](https://www.stripesandsigns.co.nz/){: target="blank"}.  
 They took a photo of my original decals, and then replicated them almost identically !  
 Very cool guys!  
 
@@ -35,7 +35,7 @@ So, Matt and I went to the [Sika Show](https://www.sikashow.co.nz/){: target="bl
 Lots of guns. 🔫  
 There was also a couple of 4x4 exhibits, so, y'know, I got thinking. 😆  
   
-A day or so later I post in the local Waikato 4x4 facebook group, a low and behold, someone has an ARB Simpson III roof top tent for sale.  
+A day or so later I posted in the local Waikato 4x4 facebook group, and low and behold, someone has an ARB Simpson III roof top tent for sale.  
 So a small amount of negotiation, and I have a Roof Top Tent (RTT) mounted on the back of the Cannon. 👍  
 I'll report back once I've used it.  
 

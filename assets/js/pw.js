@@ -95,6 +95,11 @@ $('a[target="_blank"]').each(function() {
 	$(this).attr('rel', 'noreferrer noopener');
 })
 
+$('a[target="blank"]').each(function() {
+	$(this).attr('rel', 'noreferrer noopener');
+	$(this).attr('target', '_blank');
+})
+
 $('img[rel="lightbox"]').on('click', function() {
     var url = $(this).attr('src').replace('thumbnails/','');
     $('#ModalImageLabel').html('Larger image ...');

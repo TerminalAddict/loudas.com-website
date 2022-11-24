@@ -25,7 +25,7 @@ When she arrived home on the first day she met the resident cat - A cat named Ti
 Turns out they were to be best friends until TiVo passed.  
 
 When I was living with Helen we decided that Lexi was feeling a bit lonely at home, so we hatched a plan to breed Lexi, and keep one of her pups.  
-Helen met a Border Collie name Leo, and soon enough Lexi had her first little on the 28th of February, 2017.  
+Helen met a Border Collie name Leo, and soon enough Lexi had her first litter on the 28th of February, 2017.  
 She had 7 Pups; 2 girls, 5 boys.  
 * Arnie
 * Flame

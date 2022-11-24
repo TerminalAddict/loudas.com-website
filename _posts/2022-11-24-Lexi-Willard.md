@@ -63,6 +63,10 @@ She has had some really good people friends in her 8 years, 7 months, 16 days of
 * Neville Nunns
 * Teresa Norgren
 
+
+Lexi, photo taken today (24th November, 2022) on the way to surgery.
+{% include thumbnail.html img="Lexi-24-11-2022.jpg" %}  
+
 In 2021 our little family grew a bit more when I adopted Petra (the cat) mostly to keep you company while I was at work.  
 She'll miss you too. 😿  
 

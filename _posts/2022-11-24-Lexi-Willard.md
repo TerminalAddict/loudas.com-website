@@ -76,6 +76,9 @@ My heart is broken. 💔 😢
 
 I will remember you for the rest of my life.  
 
+Lexi's funeral procession. Just me and her.   
+{% include youtube.html id="2C4UuCwd0L0" %}   
+
 Here are some memories we had together:  
 
 <div class="masonrygallery card-columns no-gutters">

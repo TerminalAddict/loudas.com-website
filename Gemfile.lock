@@ -31,9 +31,9 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 390b1f006bebdfa7e46c83831879a17a51cded52
+  revision: bf67f086c4b23f2a35f1aff4244b26c81fef25c0
   specs:
-    jekyll (4.3.0)
+    jekyll (4.3.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -126,7 +126,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.3.0)
     webrick (1.7.0)
-    zeitwerk (2.6.1)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   x86_64-linux

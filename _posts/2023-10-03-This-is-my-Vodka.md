@@ -143,7 +143,9 @@ This is Ami.
 {% include thumbnail.html img="Ami Main.jpg" %}  
 
 Since April, when we first got together, we have been touring New Zeland as much as possible.  
-Ami has absolutely been the highlight of 2023 for me. 👩‍❤️‍👨
+Ami has absolutely been the highlight of 2023 for me. 👩‍❤️‍👨  
+or Kaiden ..... oh tough call. 👶  
+
 
 Here's some selfie spam....  
 

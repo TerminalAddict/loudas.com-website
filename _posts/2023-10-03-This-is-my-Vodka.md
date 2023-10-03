@@ -54,7 +54,7 @@ Most notably is the winch and winch bar on the front.
 I had help importing a Max Generation II winch bar from Australia.  
 Then proceeded to go through the low volume vehicle certification process.  
 
-This wasn't as hard as I imagined, but it made me nervous for a while; I could've ended up with am illegal truck. 😧  
+This wasn't as hard as I imagined, but it made me nervous for a while; I could've ended up with an illegal truck. 😧  
 
 {% include thumbnail.html img="kitted out truck 1.jpg" %}  
 {% include thumbnail.html img="kitted out truck 2.jpg" %}  

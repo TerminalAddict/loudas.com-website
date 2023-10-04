@@ -121,7 +121,7 @@ then we drove on to Queenstown....
 {% include thumbnail.html img="queenstown.jpg" %}  
 
 Went horse riding in the Dart river for a day....   
-{% include thumbnail.html img="Sims fam horse riding.jpg" %}  
+{% include thumbnail.html img="Sims_fam_horse_riding.jpg" %}  
 
 Spent a day up Coronet Peak....   
 {% include thumbnail.html img="Coronet peak selfie.jpg" %}  
@@ -151,15 +151,9 @@ Here's some selfie spam....
 
 <div class="masonrygallery card-columns no-gutters">
 
- {% for image in site.static_files %}
- {% if image.path contains 'assets/images/Ami' %}
- {% unless image.path contains 'thumbnails' %}
- <div class="card">
-  <div class="thumbnail">
-   <img src="{{ site.url }}/{{ image.basename | prepend: 'assets/images/Ami/thumbnails/' | append: image.extname }}" alt="Thumbnail: {{ image.name }}" rel="lightbox" class="thumbnail">
-  </div>
+{% for image in site.static_files %}{% if image.path contains 'assets/images/Ami' %}{% unless image.path contains 'thumbnails' %}<div class="card">
+ <div class="thumbnail">
+  <img src="{{ site.url }}/{{ image.basename | prepend: 'assets/images/Ami/thumbnails/' | append: image.extname }}" alt="Thumbnail: {{ image.name }}" rel="lightbox" class="thumbnail">
  </div>
- {% endunless %}
- {% endif %}
- {% endfor %}
+</div>{% endunless %}{% endif %}{% endfor %}
 </div>

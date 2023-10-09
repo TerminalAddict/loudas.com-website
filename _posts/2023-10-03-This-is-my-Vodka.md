@@ -47,7 +47,7 @@ Born 30th January, what a bundle of cuddles.
 {% include thumbnail.html img="Kaiden.jpg" %}  
 {% include thumbnail.html img="Kaiden 2.jpg" %}  
 
-## Chuck Norris
+## Truck Norris
 Well, the truck has gone though some massive upgrades.  
 Most notably is the winch and winch bar on the front.  
 
@@ -64,6 +64,8 @@ Crikey, what a year of mods, and I'm not finished!
 The tent will get an upgrade pretty soon.  
 
 Oh yeah, and the hard lid was removed, and replaced with a canopy from [Xplora](https://xplora.co.nz/){: target="_blank"}
+
+{% include youtube.html id="zI-ed8-dRQs" %}  
 
 ## The adventures 
 {% include thumbnail.html img="Muddy truck.jpg" %}  

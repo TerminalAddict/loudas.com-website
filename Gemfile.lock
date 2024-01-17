@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: b38b7a14798d7231db8ef77d29db1eedeed51f47
+  revision: 860d730ff33d31a4e922da0e08b46f25434ba59a
   specs:
     jekyll (4.3.3)
       addressable (~> 2.4)
@@ -63,7 +63,7 @@ GEM
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.2.3)
     csv (3.2.8)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)

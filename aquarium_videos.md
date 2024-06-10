@@ -5,6 +5,12 @@ image: ta-bearded.png
 layout: page
 ---
 
+## Datnoids May 2024
+{% include youtube.html id="TfPNcYPzr00" %}
+
+## Baby Cichlid May 2024
+{% include youtube.html id="eKpH6YkRBLY" %}
+
 ## Fahaka Puffer July 2022
 {% include youtube.html id="DuiTVIC6XMQ" %}
 

@@ -5,6 +5,9 @@ image: ta-bearded.png
 layout: page
 ---
 
+## Gidday, I'm Paul
+{% include youtube.html id="SDVbyEdM2IM" %}
+
 ## A cat named Tivo playing fetch
 {% include youtube.html id="apyTAU1lRRQ" %}
 

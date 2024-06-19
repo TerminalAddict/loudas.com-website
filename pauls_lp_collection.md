@@ -13,12 +13,14 @@ description: Collection of vinyl / records / lps .. my music
 <p>
 This is a list of Vinyls / Records / LPs I have. I'll try to keep it updated. 🤣<br />
 The collection, by default, is sorted by artist, alphabetically. You can click on the column headers to change the sorting. <br />
-Click to view the track listing for each album.
+Click to view the track listing for each album.<br /><br />
+<a href="#!" id="randomAlbumSelection" class="btn btn-primary btn-lg" role="button" title="" style="display: inline;">🔎 Select a random album</a>
 <!-- track listing's received from https://www.discogs.com/ -->
 </p>
  </div>
 </div>
 <p>&nbsp; </p>
+
 
 <div class="row bg-white rounded w-100 p-3 shadow-sm border">
     <div class="col-md-12">
@@ -31,9 +33,10 @@ Click to view the track listing for each album.
     </tr>
 </thead>
 
+{% assign count = 1 %}
 {% assign sortedLPs = site.data.lp_collection | sort: 'artist' %}
 {% for record in sortedLPs %}
-    <tr data-toggle="tooltip" data-original-title="Show track listing {{ record.artist }} - {{ record.album_name}}" data-placement="bottom" class="ablum_entry" rel="tracklisting">
+    <tr id="{{ count  }}" data-toggle="tooltip" data-original-title="Show track listing {{ record.artist }} - {{ record.album_name}}" data-placement="bottom" class="ablum_entry" rel="tracklisting">
         <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting" data-original-title="Show tracks for: {{ record.artist }} - {{ record.album_name}} " data-toggle="tooltip">+<div class="tracks">{% if record.tracks != null %}
         <div class="row">
             <div class="col-md-6 trext-sm-center text-md-right pb-5">
@@ -53,6 +56,7 @@ Click to view the track listing for each album.
         <td class="sorting_1">{{ record.artist }}</td>
         <td class="album_name album_bg_gs font-weight-bold {% if record.image != null %}text-white{% endif %}"{% if record.image != null %} style="background:url({{ site.url }}/assets/images/albums/{{ record.image }}) no-repeat center center / cover; text-shadow: 2px 2px red;"{% endif %}>{{ record.album_name }}</td>
     </tr>
+    {% assign count = count | plus:1 %}
 {% endfor %}
 </table>
     </div>

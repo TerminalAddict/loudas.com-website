@@ -128,6 +128,13 @@ $('tr[rel="tracklisting"]').on('click', function () {
     $('#lightboxModal').modal('show');
 });
 
+$('a[id="randomAlbumSelection"]').on('click', function() {
+    $("#lp_collection_length select").val("100").trigger('change');
+    var rowCount = $('#lp_collection tbody tr').length;
+    var rowID = Math.floor(Math.random() * (rowCount - 1 + 1)) + 1;
+    $("#lp_collection #" + rowID).trigger('click');
+});
+
 var verifyCaptcha = function(response) {
     if(response.length == 0) {
     } else {

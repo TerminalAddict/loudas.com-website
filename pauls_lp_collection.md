@@ -14,7 +14,7 @@ description: Collection of vinyl / records / lps .. my music
 This is a list of Vinyls / Records / LPs I have. I'll try to keep it updated. 🤣<br />
 The collection, by default, is sorted by artist, alphabetically. You can click on the column headers to change the sorting. <br />
 Click to view the track listing for each album.<br /><br />
-<a href="#!" id="randomAlbumSelection" class="btn btn-primary btn-lg" role="button" title="" style="display: inline;">🔎 Select a random album</a>
+<a href="#!" id="randomAlbumSelection" class="btn btn-primary btn-lg" role="button" title="" style="display: inline;">🔎 Pick a random album</a>
 <!-- track listing's received from https://www.discogs.com/ -->
 </p>
  </div>

@@ -646,6 +646,18 @@
       7: The Frayed Ends Of Sanity
       8: To Live Is To Die
       9: Dyers Eve
+- artist: Metallica
+  album_name: Master of Puppets
+  image: Metallica_-_Master_of_Puppets_cover.jpg
+  tracks:
+      1: Battery
+      2: Master of Puppets
+      3: The Thing That Should Not Be
+      4: Welcome Home (Sanitarium)
+      5: Disposable Heroes
+      6: Leper Messiah
+      7: Orino (instrumental)
+      8: Damage, Inc
 - artist: Nirvana
   album_name: Nevermind
   image: nirvana_nevermind.jpg

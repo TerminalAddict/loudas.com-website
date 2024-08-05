@@ -1,7 +1,7 @@
 ---
 layout: post
 author: paul
-comments: true
+comments: false
 categories:
   - Bikes
 image: Motorcycle-suspension-guide.jpg

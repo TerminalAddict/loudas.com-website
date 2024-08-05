@@ -39,7 +39,7 @@ layout: page
     height: 45%;
     width: 15%;
     cursor: pointer;
-    opacity: .2;
+    opacity: .8;
 }
 .slide-arrow:hover{
     opacity: 1;
@@ -54,6 +54,7 @@ layout: page
     bottom: 0;
     left: 0;
     font-size: 3em;
+    color: white;
 }
 .slide-arrow.right:after{
     content: "\003e";

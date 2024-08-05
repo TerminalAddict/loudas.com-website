@@ -65,17 +65,17 @@ include-npm-deps:
 	@if [ ! -d "$(JSBUNDLE_DIR)" ]; then mkdir -p $(JSBUNDLE_DIR); fi
 	@cp node_modules/jquery/dist/jquery.min.js $(VENDOR_DIR)
 	@cp node_modules/popper.js/dist/umd/popper.min.js $(VENDOR_DIR)
-	@cp node_modules/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)
+	@cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js $(VENDOR_DIR)
 	@cp node_modules/datatables.net/js/jquery.dataTables.min.js $(VENDOR_DIR)
 	@cp node_modules/jquery/dist/jquery.min.map $(JSBUNDLE_DIR)
 	@cp node_modules/popper.js/dist/umd/popper.min.js.map $(JSBUNDLE_DIR)
-	@cp node_modules/bootstrap/dist/js/bootstrap.min.js.map $(JSBUNDLE_DIR)
+	@cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map $(JSBUNDLE_DIR)
 
 	@echo "copying node files into $(VENDOR_DIR) and node map files into $(JSBUNDLE_DIR)"
 
 build: include-npm-deps
 	@cd assets/js; closure-compile pw.js
-	@cat $(VENDOR_DIR)/jquery.min.js <(echo) $(VENDOR_DIR)/popper.min.js <(echo) $(VENDOR_DIR)/bootstrap.min.js <(echo) $(VENDOR_DIR)/jquery.dataTables.min.js <(echo) assets/js/ta_nav.min.js <(echo) assets/js/pw.min.js  > $(JSBUNDLE_DIR)/bundle.js
+	@cat $(VENDOR_DIR)/jquery.min.js <(echo) $(VENDOR_DIR)/bootstrap.bundle.min.js <(echo) $(VENDOR_DIR)/jquery.dataTables.min.js <(echo) assets/js/ta_nav.min.js <(echo) assets/js/pw.min.js  > $(JSBUNDLE_DIR)/bundle.js
 	@export JEKYLL_ENV=production
 	@echo "Building Production _site"
 	@$(BUNDLE) exec $(JEKYLL) build

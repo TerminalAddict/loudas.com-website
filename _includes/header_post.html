@@ -34,7 +34,7 @@
             <div class="col-md-12" id="{{ site.url }}{{ page.url }}" itemscope itemtype="http://schema.org/Article">
                 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="hidden"><link class="hidden" itemprop="url" href="{{ site.url }}{{ site.post-images }}{{page.image}}" /></div>
 			<div class="row w-100">
-                <a class="text-dark" itemprop="url mainEntityOfPage" href="{{site.url}}{{page.url}}" data-toggle="tooltip" data-original-title="{{ page.title }}" data-placement="bottom"><h1 itemprop="headline">{{page.title}}</h1></a>
+                <a class="text-dark" itemprop="url mainEntityOfPage" href="{{site.url}}{{page.url}}" data-bs-toggle="tooltip" title="{{ page.title }}" data-bs-placement="bottom"><h1 itemprop="headline">{{page.title}}</h1></a>
 			</div>
 			<div class="row w-100 headline d-print-none">
 				<blockquote class="post-meta m-0 w-100 border-right border-top">
@@ -45,7 +45,7 @@
 						{% assign categories = page.categories %}
 					{% endif %}
 					{% for category in categories %}
-                        <a data-toggle="tooltip" data-original-title="Posts in category {{ category }}" data-placement="bottom" href="{{ site.url }}/categories/#{{category|slugize}}">{{category}}</a>{% if forloop.last != true %},{% endif %}
+                        <a data-bs-toggle="tooltip" title="Posts in category {{ category }}" data-bs-placement="bottom" href="{{ site.url }}/categories/#{{category|slugize}}">{{category}}</a>{% if forloop.last != true %},{% endif %}
 					{% endfor %}
 
               {% if site.data.comments[page.slug] %}
@@ -63,7 +63,7 @@
 			  {% if author %}
               <footer class="blockquote-footer p-0 m-0">by 
                   <div class="d-inline author vcard" itemprop="author">
-                      <a data-toggle="tooltip" data-original-title="Posts by {{ author.fullname }}" data-placement="bottom" href="{{ site.url }}{{ author.url }}" class="text-dark" rel="author">
+                      <a data-bs-toggle="tooltip" title="Posts by {{ author.fullname }}" data-bs-placement="bottom" href="{{ site.url }}{{ author.url }}" class="text-dark" rel="author">
                           <div class="d-inline" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
                              <span itemprop="name" class="font-weight-bold">{{ author.fullname }}</span>
                              <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject" class="hidden">
@@ -76,9 +76,9 @@
                               <span itemprop="jobTitle">{{ author.position }}</span>
                           </div>
                       </a> - 
-                        <a href="{{ author.facebook }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook"><img alt="Facebook" src="{{ site.url }}/assets/images/icons/social_coloured/021-facebook.svg" class="svg16" /></a>
-                        &nbsp;<a href="{{ author.instagram }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Instagram"><img alt="Instagram" src="{{ site.url }}/assets/images/icons/social_coloured/025-instagram.svg" class="svg16" /></a>
-                        &nbsp;<a href="{{ author.youtube }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Youtube"><img alt="facebook" src="{{ site.url }}/assets/images/icons/social_coloured/011-youtube.svg" class="svg16" /></a>
+                        <a href="{{ author.facebook }}" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"><img alt="Facebook" src="{{ site.url }}/assets/images/icons/social_coloured/021-facebook.svg" class="svg16" /></a>
+                        &nbsp;<a href="{{ author.instagram }}" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"><img alt="Instagram" src="{{ site.url }}/assets/images/icons/social_coloured/025-instagram.svg" class="svg16" /></a>
+                        &nbsp;<a href="{{ author.youtube }}" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Youtube"><img alt="facebook" src="{{ site.url }}/assets/images/icons/social_coloured/011-youtube.svg" class="svg16" /></a>
                   </div>
               </footer>
 			  {% endif %}

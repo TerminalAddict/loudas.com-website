@@ -3,27 +3,27 @@
   <blockquote class="post-comment m-0 w-100 border-right border-top">
   <div class="float-left pr-3">
     {% if include.avatar %}
-      <img data-toggle="tooltip" data-original-title="{{ include.name }}" data-placement="bottom" class="comment_avatar rounded" src="{{ include.avatar }}" alt="{{ include.name }}" height="50" width="50">
+      <img data-bs-toggle="tooltip" title="{{ include.name }}" data-bs-placement="bottom" class="comment_avatar rounded" src="{{ include.avatar }}" alt="{{ include.name }}" height="50" width="50">
     {% else %}
-      <img data-toggle="tooltip" data-original-title="{{ include.name }}" data-placement="bottom" class="comment_avatar rounded" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&amp;s=50" srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&amp;s=100 2x" alt="{{ include.name }}" height="50" width="50">
+      <img data-bs-toggle="tooltip" title="{{ include.name }}" data-bs-placement="bottom" class="comment_avatar rounded" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&amp;s=50" srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&amp;s=100 2x" alt="{{ include.name }}" height="50" width="50">
     {% endif %}
   </div>
   <div itemscope itemtype="http://schema.org/CreativeWork">
   <h3 class="comment_author" itemprop="author">
       {% unless include.url == blank %}
 	      {% unless include.url == '' %}
-		<a data-toggle="tooltip" data-original-title="{{ include.name }}" data-placement="bottom" rel="nofollow" href="{{ include.url }}" target="_blank"><span itemprop="name">{{ include.name }}</span></a>
+		<a data-bs-toggle="tooltip" title="{{ include.name }}" data-bs-placement="bottom" rel="nofollow" href="{{ include.url }}" target="_blank"><span itemprop="name">{{ include.name }}</span></a>
 	      {% else %}
-          <span data-toggle="tooltip" data-original-title="{{ include.name }}" data-placement="bottom" itemprop="name">{{ include.name }}</span>
+          <span data-bs-toggle="tooltip" title="{{ include.name }}" data-bs-placement="bottom" itemprop="name">{{ include.name }}</span>
 	      {% endunless %}
       {% else %}
-      <span data-toggle="tooltip" data-original-title="{{ include.name }}" data-placement="bottom" itemprop="name">{{ include.name }}</span>
+      <span data-bs-toggle="tooltip" title="{{ include.name }}" data-bs-placement="bottom" itemprop="name">{{ include.name }}</span>
       {% endunless %}
   </h3>
   </div>
   <footer class="blockquote-footer p-0 m-0">
       {% if include.date %}
-        {% if include.index %}<a data-toggle="tooltip" data-original-title="Link directly to this comment" data-placement="bottom" href="#comment{{ include.index }}" itemprop="url">{% endif %}
+        {% if include.index %}<a data-bs-toggle="tooltip" title="Link directly to this comment" data-bs-placement="bottom" href="#comment{{ include.index }}" itemprop="url">{% endif %}
         <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
         {% if include.index %}</a>{% endif %}
       {% endif %}

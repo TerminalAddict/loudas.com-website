@@ -7,16 +7,20 @@ $(document).ready(function(){
             }
         });
         // scroll body to 0px on click
-        $('#back-to-top').click(function () {
-            $('#back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-        $('#back-to-top').mouseover(function() {
-            $('#back-to-top').tooltip('show');
-        });
+        // $('#back-to-top').click(function () {
+        //     $('#back-to-top').tooltip('hide');
+        //     $('body,html').animate({
+        //         scrollTop: 0
+        //     }, 800);
+        //     return false;
+        // });
+        // $('#back-to-top').mouseover(function() {
+        //     $('#back-to-top').tooltip('show');
+        // });
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
 
     $('img.thumbnail').each(function(){
         var currWidth = this.width;
@@ -41,7 +45,11 @@ $(document).ready(function(){
                     } else {
                         var highlight = excerpt;
                     }
-                    $('#queryResult').append('<li class="list-group-item link-class"><img src="/assets/images/search-blue.svg" alt="search" class="searchIcon" /><a class="pl-5" href="'+value.url+'" data-toggle="tooltip" data-original-title="'+value.title+'" data-placement="bottom">'+value.title+'<\/a><span class="text-muted"> ...'+highlight+'... <\/span><a href="'+value.url+'" data-toggle="tooltip" data-original-title="'+value.title+'" data-placement="bottom">read more &rArr;<\/a><\/li>');
+                    $('#queryResult').append('<li class="list-group-item link-class"><img src="/assets/images/search-blue.svg" alt="search" class="searchIcon" /><a class="pl-5" href="'+value.url+'" data-bs-toggle="tooltip" title="'+value.title+'" data-bs-placement="bottom">'+value.title+'<\/a><span class="text-muted"> ...'+highlight+'... <\/span><a href="'+value.url+'" data-bs-toggle="tooltip" title="'+value.title+'" data-bs-placement="bottom">read more &rArr;<\/a><\/li>');
+                    // var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                    // var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                        // return new bootstrap.Tooltip(tooltipTriggerEl)
+                    // })
                 }
             });
         });
@@ -62,7 +70,7 @@ $(document).ready(function(){
             "sInfo": "Showing _START_ to _END_ of _TOTAL_ Albums"
         },
         "drawCallback": function( settings ) {
-            $('[data-toggle="tooltip"]').tooltip();
+            $('[data-bs-toggle="tooltip"]').tooltip();
             $("table#lp_collection tr").hover(function () {
                 $(this).find("td.album_name").removeClass('album_bg_gs').addClass('album_bg_nogs');
             }, function () {
@@ -71,7 +79,7 @@ $(document).ready(function(){
         }
     });
     $(function () {
-        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-bs-toggle="tooltip"]').tooltip();
     });
     $("table#lp_collection tr").hover(function () {
 	    $(this).find("td.album_name").removeClass('album_bg_gs').addClass('album_bg_nogs');
@@ -80,12 +88,12 @@ $(document).ready(function(){
     });
 });
 
-$(".navbar-brand").mouseover(function(){
-        $(this).tooltip('show');
-});
-$(".searchIconT").mouseover(function(){
-        $(this).tooltip('show');
-});
+// $(".navbar-brand").mouseover(function(){
+//         $(this).tooltip('show');
+// });
+// $(".searchIconT").mouseover(function(){
+//         $(this).tooltip('show');
+// });
 
 $('a[data-mail]').on('click', function() {
         window.location = 'mailto:' + $(this).data('mail')+'@paulwillard.nz' + '?subject=Contact from website';

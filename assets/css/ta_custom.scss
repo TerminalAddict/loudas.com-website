@@ -391,6 +391,9 @@ nav.navbar div.flex-row {
     display: none;
     cursor: pointer;
 }
+a.back-to-top:hover, a.back-to-top:focus {
+    text-decoration: none;
+}
 
 img[rel~="lightbox"] {
     cursor: pointer;
@@ -655,7 +658,8 @@ iframe {
     border-width: 0px;
 }
 
-a, .pagination a.page-link, .dark-blue-link { color: #004A94; }
+a, .pagination a.page-link, .dark-blue-link { color: #004A94; text-decoration: none; }
+a:hover { text-decoration: underline;  }
 .pagination a.active, .dark-blue-bg { background-color: #004A94; }
 
 .font0 {
@@ -814,4 +818,7 @@ aside.toc {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
 }

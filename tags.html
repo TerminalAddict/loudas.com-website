@@ -12,7 +12,7 @@ author: paul
 		<div class="archive-group">
 		{% for tag in tags %}
 			<div class="list-group w-100">
-			  <a data-toggle="tooltip" data-placement="bottom" data-original-title="" class="list-group-item list-group-item-action w-100" href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>
+			  <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="" class="list-group-item list-group-item-action w-100" href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>
 			</div>
 		{% endfor %}
 		</div>

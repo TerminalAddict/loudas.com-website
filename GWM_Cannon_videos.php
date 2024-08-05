@@ -99,9 +99,12 @@ foreach ($video_items as $video) {
     <div class="slide-arrow right"></div>
 </div>
 
-<div class="container text-center w-100 pt-3">
-        <a href="#!" class="left float-left btn btn-primary btn-lg" role="button" title="Previous Video" data-toggle="tooltip" data-placement="right" data-animation="false" data-original-title="Previous Video" style="display: inline;">👈 Previous VIdeo</a>
-        <a href="#!" class="right float-right btn btn-primary btn-lg" role="button" title="Next Video" data-toggle="tooltip" data-placement="left" data-animation="false" data-original-title="Next Video" style="display: inline;">👉 Next Video</a>
+<div class="container text-center w-100 mt-3 pb-5">
+        <a href="#!" class="left float-left btn btn-primary btn-lg" role="button" title="Previous Video" data-bs-toggle="tooltip" data-bs-placement="right" data-animation="false" title="Previous Video" style="display: inline;">👈 Previous Video</a>
+        <a href="#!" class="right float-right btn btn-primary btn-lg" role="button" title="Next Video" data-bs-toggle="tooltip" data-bs-placement="left" data-animation="false" title="Next Video" style="display: inline;">👉 Next Video</a>
+</div>
+<div class="container text-center w-100 mt-3 pb-5">
+ <!-- where is this -->
 </div>
 <!--
 <?php

@@ -36,12 +36,12 @@ Click to view the track listing for each album.<br /><br />
 {% assign count = 1 %}
 {% assign sortedLPs = site.data.lp_collection | sort: 'artist' %}
 {% for record in sortedLPs %}
-    <tr id="{{ count  }}" data-toggle="tooltip" data-original-title="Show track listing {{ record.artist }} - {{ record.album_name}}" data-placement="bottom" class="ablum_entry" rel="tracklisting">
-        <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting" data-original-title="Show tracks for: {{ record.artist }} - {{ record.album_name}} " data-toggle="tooltip">+<div class="tracks">{% if record.tracks != null %}
+    <tr id="{{ count  }}" data-bs-toggle="tooltip" title="Show track listing {{ record.artist }} - {{ record.album_name}}" data-bs-placement="bottom" class="ablum_entry" rel="tracklisting">
+        <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting" title="Show tracks for: {{ record.artist }} - {{ record.album_name}} " data-bs-toggle="tooltip" data-bs-placement="bottom">+<div class="tracks">{% if record.tracks != null %}
         <div class="row">
             <div class="col-md-6 trext-sm-center text-md-right pb-5">
                 {% if record.image != null %}
-                <img src="{{ site.url }}/assets/images/albums/{{ record.image }}" alt="{ record.artist }} - {{ record.album_name}}" class="shadow-lg rounded"  style="transform:rotate(5deg)" />
+                <img src="{{ site.url }}/assets/images/albums/{{ record.image }}" alt="{{ record.artist }} - {{ record.album_name}}" class="shadow-lg rounded float-end"  style="transform:rotate(5deg)" />
                 {% endif %}
             </div>
             <div class="col-md-6">

@@ -1,10 +1,10 @@
     <div class="container-fluid m-0 p-0 sticky-top">
-    <nav class="navbar ta_nav"><a class="navbar-brand" href="/" data-original-title="{{ site.site_name }}" data-toggle="tooltip"><img src="{{ site.url }}/assets/images/ta-bearded_optimised.png" alt="{{ site.site_name }}" width="110" height="124" /> &nbsp; <span>LoudAs.com</span></a>
+    <nav class="navbar ta_nav"><a class="navbar-brand" href="/" title="{{ site.site_name }}"><img src="{{ site.url }}/assets/images/ta-bearded_optimised.png" alt="{{ site.site_name }}" width="110" height="124" /> &nbsp; <span>LoudAs.com</span></a>
       <div class="d-flex flex-row align-items-center">
           {% if page.url != "/404.html" %}
-          <span class="searchIconT" data-original-title="Search {{ site.url }}" data-toggle="tooltip"><a class="searchIcon m-2" href="#" data-toggle="modal" data-target="#ModalSearch" id="modalSearchButton"><img src="{{ site.url }}/assets/images/search.svg" width="40" height="40" alt="Search... " class="searchIcon"></a></span>
+          <span class="searchIconT" title="Search {{ site.url }}" data-bs-toggle="tooltip" data-bs-placement="bottom"><a class="searchIcon m-2" href="#" data-bs-toggle="modal" data-bs-target="#ModalSearch" id="modalSearchButton"><img src="{{ site.url }}/assets/images/search.svg" width="40" height="40" alt="Search... " class="searchIcon"></a></span>
           {% endif %}
-        <button class="navbar-toggler toggler-spring m-2" aria-labelledby="NavigationHeader" data-toggle="tooltip" data-original-title="Show / Hide Menu" data-placement="bottom"><span class="navbar-toggler-icon"><!----></span></button>
+        <button class="navbar-toggler toggler-spring m-2" aria-labelledby="NavigationHeader" data-bs-toggle="tooltip" title="Show / Hide Menu" data-bs-placement="bottom"><span class="navbar-toggler-icon"><!----></span></button>
       </div>
       <div class="collapse navbar-collapse justify-content-sm-end">
         <h2 id="NavigationHeader">Navigation</h2>
@@ -15,15 +15,15 @@
               <a class="nav-link  p-1 rounded" href="#!" >{{ item.name }} &raquo;</a>
               <ul class="navbar-nav submenu"{% for subcat in item.subcategories %}{% if page.url == subcat.subhref %} style="pointer-events: auto"{% endif %}{% endfor %}>
               {% for subcategory in item.subcategories %}
-              <li class="nav-item nav-item-fill {% if page.url == subcategory.subhref %} active{% endif %}"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
+              <li class="nav-item nav-item-fill {% if page.url == subcategory.subhref %} active{% endif %}"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
               {% endfor %}
               </ul>
           </li>
            {% else %}
              {% if item.link == "/" and page.url == "/index.html" %}
-                <li class="nav-item nav-item-fill active"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ item.name }}">{{ item.name }}</a></li>
+                <li class="nav-item nav-item-fill active"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{ item.name }}">{{ item.name }}</a></li>
              {% else %}
-                <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ item.name }}">{{ item.name }}</a></li>
+                <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{ item.name }}">{{ item.name }}</a></li>
              {% endif %}
            {% endif %}
           {% endfor %}
@@ -32,7 +32,7 @@
               <ul class="navbar-nav submenu" {% if page.url == "/categories/" %} style="pointer-events: auto"{% endif %}>
                   {% for category in site.categories %}
                   {% capture category_name %}{{ category | first }}{% endcapture %}
-                  <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a data-toggle="tooltip" data-placement="bottom" data-original-title="Show posts in category - {{ category_name | slugize }}"  href="{{ site.url }}/categories/#{{ category_name | slugize }}" class="nav-link p-1 rounded">{{ category_name | slugsize }}</a></li>
+                  <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Show posts in category - {{ category_name | slugize }}"  href="{{ site.url }}/categories/#{{ category_name | slugize }}" class="nav-link p-1 rounded">{{ category_name | slugsize }}</a></li>
                   {% endfor %}
               </ul>
           </li>

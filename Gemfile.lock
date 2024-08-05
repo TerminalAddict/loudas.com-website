@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 60a9cd73569552b858e807cbd3c0e23455023cbc
+  revision: a5460320c5a37b8d883f8d8c89fa58349d893af0
   specs:
     jekyll (4.3.3)
       addressable (~> 2.4)
@@ -75,7 +75,7 @@ GEM
     fastimage (2.3.1)
     ffi (1.17.0)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.3-x86_64-linux)
+    google-protobuf (3.25.4-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
@@ -103,18 +103,18 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     minitest (5.24.1)
-    nokogiri (1.16.6-x86_64-linux)
+    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (6.0.0)
-    racc (1.8.0)
-    rack (3.1.6)
+    public_suffix (6.0.1)
+    racc (1.8.1)
+    rack (3.1.7)
     rake (13.2.1)
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rexml (3.3.1)
+    rexml (3.3.4)
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)
@@ -135,7 +135,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.5.0)
     webrick (1.8.1)
-    zeitwerk (2.6.16)
+    zeitwerk (2.6.17)
 
 PLATFORMS
   x86_64-linux

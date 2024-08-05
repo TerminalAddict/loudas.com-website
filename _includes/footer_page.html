@@ -11,7 +11,9 @@
         </div>
     </div>
 
+    {% if page.turn_ads_off != 1 %}
     {% include google_adsense.html %}
+    {% endif %}
 
     {% include search_modal.html %}
 

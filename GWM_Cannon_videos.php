@@ -3,6 +3,7 @@ author: paul
 title: GWM Cannon videos
 image: ta-bearded.png
 layout: page
+turn_ads_off: 1
 ---
 <style>
 .contenedor-slide {

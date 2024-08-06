@@ -38,6 +38,6 @@ Here's a couple of ways you can get in contact with me:
 &nbsp; <a href="{{ page.youtube }}" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Youtube"><img alt="facebook" src="{{ site.url }}/assets/images/icons/social_coloured/011-youtube.svg" class="svg48" /></a>
 <br />
 <small>I've fought with smoking most of my life 😥 <br />
-I've been smoke free since November 2019. I stopped in February 2019, then picked up the cigs agains during my Helen drama. WHen I finally left Helen, the next month I stopped smoking, and haven't since (except for a couple of drunken nights when someone handed me a lit cigarette).</small>
+I've been smoke free since November 2019. I stopped in February 2015, then picked up the cigs agains during my Helen drama. When I finally left Helen, the next month I stopped smoking, and haven't smoked since (except for a couple of drunken nights when someone handed me a lit cigarette).</small>
 </div>
 </div>

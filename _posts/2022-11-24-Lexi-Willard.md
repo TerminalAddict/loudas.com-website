@@ -82,6 +82,7 @@ Lexi's funeral procession. Just me and her.
 Here are some memories we had together:  
 
 <div class="masonrygallery card-columns no-gutters">
+<div class="row" data-masonry="{'percentPosition': true }">
 
  {% for image in site.static_files %}
  {% if image.path contains 'assets/images/Lexi' %}
@@ -94,4 +95,5 @@ Here are some memories we had together:
  {% endunless %}
  {% endif %}
  {% endfor %}
+</div>
 </div>

@@ -69,6 +69,7 @@ And here's a video in October 2019 just before I had to sell it because I left H
 Here's some pics for you enjoy
 
 <div class="masonrygallery card-columns no-gutters">
+<div class="row" data-masonry="{'percentPosition': true }">
  {% for image in site.static_files %}
  {% if image.path contains 'assets/images/2019-den-project' %}
  {% unless image.path contains 'thumbnails' %}
@@ -80,4 +81,5 @@ Here's some pics for you enjoy
  {% endunless %}
  {% endif %}
  {% endfor %}
+</div>
 </div>

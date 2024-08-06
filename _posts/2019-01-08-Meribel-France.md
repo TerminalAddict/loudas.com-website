@@ -126,6 +126,7 @@ I took some photos :) click on them to view large version of the pics.
 
 
 <div class="masonrygallery card-columns no-gutters">
+<div class="row" data-masonry="{'percentPosition': true }">
 
  {% for image in site.static_files %}
  {% if image.path contains 'assets/images/2018-2019-Meribel-Gallery' %}
@@ -138,4 +139,5 @@ I took some photos :) click on them to view large version of the pics.
  {% endunless %}
  {% endif %}
  {% endfor %}
+</div>
 </div>

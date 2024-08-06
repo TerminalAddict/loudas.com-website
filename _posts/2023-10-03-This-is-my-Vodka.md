@@ -152,10 +152,12 @@ or Kaiden ..... oh tough call. 👶
 Here's some selfie spam....  
 
 <div class="masonrygallery card-columns no-gutters">
+<div class="row" data-masonry="{'percentPosition': true }">
 
 {% for image in site.static_files %}{% if image.path contains 'assets/images/Ami' %}{% unless image.path contains 'thumbnails' %}<div class="card">
  <div class="thumbnail">
   <img src="{{ site.url }}/{{ image.basename | prepend: 'assets/images/Ami/thumbnails/' | append: image.extname }}" alt="Thumbnail: {{ image.name }}" rel="lightbox" class="thumbnail">
  </div>
 </div>{% endunless %}{% endif %}{% endfor %}
+</div>
 </div>

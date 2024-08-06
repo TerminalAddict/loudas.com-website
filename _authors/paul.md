@@ -10,7 +10,7 @@ instagram: https://www.instagram.com/terminaladdict/
 youtube: https://www.youtube.com/channel/UCYHLJ0csNwBkfQz7uXLLcQw
 ---
 <div class="border bg-white rounded p-3">
-<img src="{{ site.url }}{{ page.pic }}" class="float-left rounded-circle shadow-lg m-3" alt="Paul WIllard" title="Paul Willard" />
+<img src="{{ site.url }}{{ page.pic }}" class="float-start rounded-circle shadow-lg m-3" alt="Paul Willard" title="Paul Willard" />
 Paul Willard is the owner of this website, and sole contributor. Paul has been involved in internet related technologies since 1994 when the internet went commercial in New Zealand.
 
 You can find out more about Paul Willard at <a target="_blank" href="https://www.paulwillard.nz" data-bs-toggle="tooltip" data-bs-placement="bottom" title="PaulWillard.nz" >PaulWillard.nz</a>. Paul is also frequently involved in business events and get togethers in the region.

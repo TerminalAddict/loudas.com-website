@@ -22,7 +22,7 @@
 	        </button>
 	      </div>
 	    </div>
-	    <div id="m{{ year.name }}" class="collapse {% if forloop.first %}show{% endif %}" aria-labelledby="y{{ year.name }}" data-parent="#accordion">
+	    <div id="m{{ year.name }}" class="collapse {% if forloop.first %}show{% endif %}" aria-labelledby="y{{ year.name }}" data-bs-parent="#accordion">
 	      <div class="card-body">
 			<div class="list-group">
   {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}

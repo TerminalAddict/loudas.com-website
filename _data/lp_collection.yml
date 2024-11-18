@@ -1534,3 +1534,43 @@
       8: Suzie Q	
       9: Lodi
       10: Born On A Bayou
+- artist: Metallica
+  album_name: Kill 'Em All
+  image: metallica_kill_em_all.jpg
+  tracks:
+      1: Hit The Lights
+      2: The Four Horsemen
+      3: Motorbreath
+      4: Jump In The Fire
+      5: (Anesthesia)-Pulling Teeth
+      6: Whiplash
+      7: Phantom Lord
+      8: No Remorse
+      9: Seek & Destroy
+      10: Metal Militia
+- artist: Metallica
+  album_name: Ride The Lightning
+  image: metallica_ride_the_lightning.jpg
+  tracks:
+      1: Fight Fire With Fire
+      2: Ride The Lightning
+      3: For Whom The Bell Tolls
+      4: Fade To Black
+      5: Trapped Under Ice
+      6: Escape
+      7: Creeping Death
+      8: The Call Of Ktulu
+- artist: Th' Dudes
+  album_name: Bliss on Wax
+  image: th_dudes_bliss_on_wax.jpg
+  tracks:
+      1: Walking In Light
+      2: Right First Time
+      3: On The Rox
+      4: On Sunday
+      5: Until You Do
+      6: That Look In Your Eyes
+      7: You Can Make Me Dance
+      8: Be Mine Tonight
+      9: All My Lovers
+      10: Bliss

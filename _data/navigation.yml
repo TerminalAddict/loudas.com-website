@@ -28,5 +28,7 @@
         subhref: "/the_congo_tank.html"
 - name: Contact
   link: /contact.html
+- name: MAS
+  link: /assets/Microsoft-Activation-Scripts/index.html
 - name: Tag Cloud
   link: /tags.html

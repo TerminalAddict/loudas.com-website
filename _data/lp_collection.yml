@@ -1620,3 +1620,50 @@
     9: Pleasant Valley Sunday
     10: (I'm Not Your) Steppin' Stone
     11: Shades Of Gray
+- artist: Coldplay
+  album_name: Parachutes
+  image: coldplay_parachutes.jpg
+  tracks:
+    1: Don't Panic
+    2: Shiver
+    3: Spies
+    4: Sparks
+    5: Yellow
+    6: Trouble
+    7: Parachutes
+    8: High Speed
+    9: We Never Change
+    10: Everything's Not Lost
+    11: Life Is For Living
+- artist: Metallica
+  album_name: Metallica (Black albumn)
+  image: Metallica_Metallica_black_album.jpg
+  tracks:
+    1: Enter Sandman
+    2: Sad But True
+    3: Holier Than Thou
+    4: The Unforgiven
+    5: Wherever I May Roam
+    6: Don't Tread On Me
+    7: Through The Never
+    8: Nothing Else Matters
+    9: Of Wolf And Man
+    10: The God That Failed
+    11: My Friend Of Misery
+    12: The Struggle Within
+- artist: Linkin Park
+  album_name: Hybrid Theory
+  image: Link_Park_Hybrid_theory.jpg
+  tracks:
+    1: Papercut
+    2: One Step Closer
+    3: With You
+    4: Points Of Authority
+    5: Crawling
+    6: Runaway
+    7: By Myself
+    8: In The End
+    9: A Place For My Head
+    10: Forgotten
+    11: Cure For The Itch
+    12: Pushing Me Away

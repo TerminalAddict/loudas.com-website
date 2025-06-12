@@ -1712,3 +1712,34 @@
     8: Over And Over
     9: Nights Of Mystery
     10: Every Picture Tells A Story
+- artist: Metallica
+  album_name: Reload
+  image: metallica_reload.jpg
+  tracks:
+    1: Fuel
+    2: The Memory Remains
+    3: Devil's Dance
+    4: The Unforgiven II
+    5: Better Than You	
+    6: Slither
+    7: Carpe Diem Baby
+    8: Bad Seed
+    9: Where The Wild Things Are
+    10: Prince Charming
+    11: Low Man's Lyric
+    12: Attitude
+    13: Fixxxer
+- artist: Metallica
+  album_name: Death Magnetic
+  image: metallica_death_magnetic.jpg
+  tracks:
+    1: That Was Just Your Life
+    2: The End Of The Line
+    3: Broken, Beat & Scarred
+    4: The Day That Never Comes
+    5: All Nightmare Long
+    6: Cyanide
+    7: The Unforgiven III
+    8: The Judas Kiss
+    9: Suicide & Redemption
+    10: My Apocalypse

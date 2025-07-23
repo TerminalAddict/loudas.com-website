@@ -1,5 +1,14 @@
+
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 @import "highlight-jekyll.scss";
 @import "jquery.dataTables.min.scss";
-@import "ta_custom.scss"
+@import "ta_custom.scss";
+
+/*
+@use "variables" as *;
+@use "bootstrap/scss/bootstrap" as *;
+@use "highlight-jekyll.scss" as *;
+@use "jquery.dataTables.min.scss" as *;
+@use "ta_custom.scss" as *;
+*/

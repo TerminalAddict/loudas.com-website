@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 55024b37aee2afff8004cc01cd0d38b0ec2bf0e3
+  revision: 40ac06ed3e95325a07868dd2ac419e409af823b6
   specs:
     jekyll (4.4.1)
       addressable (~> 2.4)
@@ -96,7 +96,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.12.2)
+    json (2.13.0)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -111,7 +111,7 @@ GEM
     logger (1.7.0)
     mercenary (0.4.0)
     minitest (5.25.5)
-    nokogiri (1.18.8-x86_64-linux-gnu)
+    nokogiri (1.18.9-x86_64-linux-gnu)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -123,7 +123,7 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     rexml (3.4.1)
-    rouge (4.5.2)
+    rouge (4.6.0)
     safe_yaml (1.0.5)
     sass-embedded (1.89.2-x86_64-linux-gnu)
       google-protobuf (~> 4.31)

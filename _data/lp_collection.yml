@@ -1868,3 +1868,29 @@
     20: Master Of Puppets
     21: Nothing Else Matters
     22: Enter Sandman
+- artist: Whitesnake
+  album_name: Whitesnake
+  image: whitesnake.jpg
+  tracks:
+    1: Crying In The Rain
+    2: Bad Boys
+    3: Still Of The Night
+    4: Here I Go Again
+    5: Give Me All Your Love
+    6: Is This Love
+    7: Children Of The Night
+    8: Straight For The Heart
+    9: Don't Turn Away
+- artist: George Michael
+  album_name: Faith
+  image: george_michael_faith.jpg
+  tracks:
+    1: Faith
+    2: Father Figure
+    3: I want your sex
+    4: One more try
+    5: Hard day
+    6: Hand to mouth
+    7: Look at your hands
+    8: Monkey
+    9: Kissing a fool

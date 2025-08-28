@@ -30,5 +30,7 @@
   link: /contact.html
 - name: MAS
   link: /assets/Microsoft-Activation-Scripts/index.html
+- name: Brew Info
+  link: /brew_calculators.html
 - name: Tag Cloud
   link: /tags.html

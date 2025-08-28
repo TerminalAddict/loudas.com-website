@@ -86,6 +86,98 @@ $(document).ready(function(){
     }, function () {
 	    $(this).find("td.album_name").removeClass('album_bg_nogs').addClass('album_bg_gs');
     });
+
+    //brew calcs
+      $("#abvCalcForm").on("submit", function(e){
+        e.preventDefault();
+
+        let og = parseFloat($("#og").val());
+        let fg = parseFloat($("#fg").val());
+
+        if(isNaN(og) || isNaN(fg) || og <= fg){
+          $("#abvresult").removeClass("alert-info").addClass("alert-danger")
+            .removeClass("d-none").text("Please enter valid OG > FG values.");
+          return;
+        }
+
+        // Widely used ABV formula
+        let abv = (og - fg) * 131.25;
+
+        $("#abvresult").removeClass("d-none alert-danger").addClass("alert-info")
+          .html(`<strong>Estimated ABV:</strong> ${abv.toFixed(2)}%`);
+      });
+
+      $("#dilutionCalcForm").on("submit", function(e){
+        e.preventDefault();
+
+        let startABV = parseFloat($("#startABV").val());
+        let startVol = parseFloat($("#startVol").val());
+        let desiredABV = parseFloat($("#desiredABV").val());
+
+        if(isNaN(startABV) || isNaN(startVol) || isNaN(desiredABV) || startABV <= desiredABV || startABV <= 0 || startVol <= 0 || desiredABV <= 0){
+          $("#dilutionresult").removeClass("alert-info").addClass("alert-danger")
+            .removeClass("d-none").text("Please enter valid values (Starting % must be greater than Desired %).");
+          return;
+        }
+
+        // Final total volume after dilution
+        let finalVol = (startVol * startABV) / desiredABV;
+        // Water to add
+        let waterToAdd = finalVol - startVol;
+
+        $("#dilutionresult").removeClass("d-none alert-danger").addClass("alert-info")
+          .html(`<strong>Final Volume:</strong> ${finalVol.toFixed(2)} L<br>
+                 <strong>Water to Add:</strong> ${waterToAdd.toFixed(2)} L`);
+      });
+
+      $("#bottleCalcForm").on("submit", function(e){
+        e.preventDefault();
+
+        let bottlefinalVol = parseFloat($("#bottlefinalVol").val());
+        let bottledesiredABV = parseFloat($("#bottledesiredABV").val());
+        let bottlesourceABV = parseFloat($("#bottlesourceABV").val());
+
+        if(isNaN(bottlefinalVol) || isNaN(bottledesiredABV) || isNaN(bottlesourceABV) ||
+           bottlefinalVol <= 0 || bottledesiredABV <= 0 || bottlesourceABV <= desiredABV){
+          $("#bottleresult").removeClass("alert-info").addClass("alert-danger")
+            .removeClass("d-none").text("Please enter valid values (Source % must be greater than Desired %).");
+          return;
+        }
+
+        // Alcohol needed (litres)
+        let alcNeeded = (bottlefinalVol * bottledesiredABV) / bottlesourceABV;
+        // Water needed (litres)
+        let waterNeeded = bottlefinalVol - alcNeeded;
+
+        $("#bottleresult").removeClass("d-none alert-danger").addClass("alert-info")
+          .html(`<strong>Alcohol to Use:</strong> ${alcNeeded.toFixed(2)} L<br>
+                 <strong>Water to Add:</strong> ${waterNeeded.toFixed(2)} L`);
+      });
+
+      $("#sugarWashForm").on("submit", function(e){
+        e.preventDefault();
+
+        let sugarWashvolume = parseFloat($("#sugarWashvolume").val());
+        let sugarWashog = parseFloat($("#sugarWashog").val());
+
+        if(isNaN(sugarWashvolume) || isNaN(sugarWashog) || sugarWashvolume <= 0 || sugarWashog <= 1.000){
+          $("#sugarWashresult").removeClass("alert-info").addClass("alert-danger")
+            .removeClass("d-none").text("Please enter valid values (OG must be > 1.000).");
+          return;
+        }
+
+        // Gravity points (e.g. 1.080 -> 80)
+        let points = (sugarWashog - 1.000) * 1000;
+        // Sugar needed in kg
+        let sugarKg = (sugarWashvolume * points) / 384;
+        // Water needed in L (approx: total volume minus sugar kg)
+        let waterL = sugarWashvolume - sugarKg;
+
+        $("#sugarWashresult").removeClass("d-none alert-danger").addClass("alert-info")
+          .html(`<strong>Sugar Required:</strong> ${sugarKg.toFixed(2)} kg<br>
+                 <strong>Water Required:</strong> ${waterL.toFixed(2)} L`);
+        // end brew calcs
+      });
 });
 
 // $(".navbar-brand").mouseover(function(){

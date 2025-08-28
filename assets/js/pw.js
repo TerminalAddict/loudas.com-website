@@ -159,6 +159,7 @@ $(document).ready(function(){
 
         let sugarWashvolume = parseFloat($("#sugarWashvolume").val());
         let sugarWashog = parseFloat($("#sugarWashog").val());
+        let sugarWashfg = 1.010; // assumed final gravity
 
         if(isNaN(sugarWashvolume) || isNaN(sugarWashog) || sugarWashvolume <= 0 || sugarWashog <= 1.000){
           $("#sugarWashresult").removeClass("alert-info").addClass("alert-danger")
@@ -172,10 +173,13 @@ $(document).ready(function(){
         let sugarKg = (sugarWashvolume * points) / 384;
         // Water needed in L (approx: total volume minus sugar kg)
         let waterL = sugarWashvolume - sugarKg;
+        // Estimated ABV
+        let estABV = (sugarWashog - sugarWashfg) * 131.25;
 
         $("#sugarWashresult").removeClass("d-none alert-danger").addClass("alert-info")
           .html(`<strong>Sugar Required:</strong> ${sugarKg.toFixed(2)} kg<br>
-                 <strong>Water Required:</strong> ${waterL.toFixed(2)} L`);
+                 <strong>Water Required:</strong> ${waterL.toFixed(2)} L<br>
+                 <strong>Estimated Final ABV:</strong> ${estABV.toFixed(1)}% (assuming FG = 1.010)`);
         // end brew calcs
       });
 });

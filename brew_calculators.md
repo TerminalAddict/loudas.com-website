@@ -136,7 +136,7 @@ This is some calculators, and info I regularly use. <br />
     </div>
   </div>
 
- <!-- Sugar wash Calc -->  
+ <!-- Sugar wash Calc -->
   <div class="container py-5">
     <div class="row justify-content-center">
       <div class="col-md-6">
@@ -170,5 +170,41 @@ This is some calculators, and info I regularly use. <br />
     </div>
   </div>
 	
+
+ <!-- Sugar wash estimator Calc -->
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+
+        <div class="card shadow-lg rounded-4">
+          <div class="card-header bg-info text-white text-center fs-4 fw-bold">
+            Sugar Wash Estimator Calculator
+          </div>
+          <div class="card-body">
+
+            <form id="sugarWashEstimatorForm">
+              <div class="mb-3">
+                <label for="sugarwashsugar" class="form-label">Desired Sugar (kg)</label>
+                <input type="number" step="0.01" class="form-control" id="sugarwashsugar" placeholder="e.g. 6" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="sugarwashwater" class="form-label">Desired Water (L)</label>
+                <input type="number" step="0.1" class="form-control" id="sugarwashwater" placeholder="e.g. 25" required>
+              </div>
+
+              <button type="submit" class="btn btn-info w-100">Estimate</button>
+            </form>
+
+            <div id="sugarwashestresult" class="alert alert-info mt-4 d-none text-center fs-5"></div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
 	</div>
 </div>

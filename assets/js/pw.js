@@ -180,8 +180,43 @@ $(document).ready(function(){
           .html(`<strong>Sugar Required:</strong> ${sugarKg.toFixed(2)} kg<br>
                  <strong>Water Required:</strong> ${waterL.toFixed(2)} L<br>
                  <strong>Estimated Final ABV:</strong> ${estABV.toFixed(1)}% (assuming FG = 1.010)`);
-        // end brew calcs
       });
+
+      $("#sugarWashEstimatorForm").on("submit", function(e){
+        e.preventDefault();
+
+        let sugarwashsugarKg = parseFloat($("#sugarwashsugar").val());
+        let sugarwashwaterL = parseFloat($("#sugarwashwater").val());
+        let sugarwashestfg = 1.010; // assumed final gravity
+
+        if(isNaN(sugarwashsugarKg) || isNaN(sugarwashwaterL) || sugarwashsugarKg <= 0 || sugarwashwaterL <= 0){
+          $("#sugarwashestresult").removeClass("alert-info").addClass("alert-danger")
+            .removeClass("d-none").text("Please enter valid values (sugar > 0, water > 0).");
+          return;
+        }
+
+        // Approx total volume (water + sugar displacement)
+        let totalVol = sugarwashwaterL + sugarwashsugarKg;
+
+        // Total gravity points from sugar
+        let totalPoints = sugarwashsugarKg * 384;
+
+        // Points per litre
+        let ppl = totalPoints / totalVol;
+
+        // Estimated OG
+        let sugarwashestog = 1.000 + (ppl / 1000);
+
+        // Estimated ABV
+        let sugarwashestabv = (sugarwashestog - sugarwashestfg) * 131.25;
+
+        if (sugarwashestabv < 0) sugarwashestabv = 0; // safeguard
+
+        $("#sugarwashestresult").removeClass("d-none alert-danger").addClass("alert-info")
+          .html(`<strong>Estimated OG:</strong> ${sugarwashestog.toFixed(3)}<br>
+                 <strong>Estimated Final ABV:</strong> ${sugarwashestabv.toFixed(1)}% (FG = ${sugarwashestfg.toFixed(3)})`);
+      });
+      // end brew calcs
 });
 
 // $(".navbar-brand").mouseover(function(){

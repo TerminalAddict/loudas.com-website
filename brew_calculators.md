@@ -22,8 +22,27 @@ This is some calculators, and info I regularly use. <br />
 <div class="row bg-white rounded w-100 p-3 shadow-sm border">
 	<div class="col-md-12">
 
+
+<ul class="list-group list-group-horizontal-xl">
+  <li class="list-group-item list-group-item-primary">
+    <a href="#abvcalc">ABV Calculator</a>
+  </li>
+  <li class="list-group-item list-group-item-success">
+    <a href="#dilutioncalc">Dilution Calculator</a>
+  </li>
+  <li class="list-group-item list-group-item-warning">
+    <a href="#bottlecalc">Bottle Calculator</a>
+  </li>
+  <li class="list-group-item list-group-item-dark">
+    <a href="#sugarwashcalc">Sugar Wash Calculator</a>
+  </li>
+  <li class="list-group-item list-group-item-info">
+    <a href="#sugarwashestimatorcalc">Sugar Wash Estimator Calculator</a>
+  </li>
+</ul>
+
 <!-- ABV Calc -->
-  <div class="container py-5">
+  <div class="container py-5" id="abvcalc">
     <div class="row justify-content-center">
       <div class="col-md-6">
 
@@ -58,7 +77,7 @@ This is some calculators, and info I regularly use. <br />
 
 
 <!-- Dilution Calc -->  
-  <div class="container py-5">
+  <div class="container py-5" id="dilutioncalc">
     <div class="row justify-content-center">
       <div class="col-md-6">
 
@@ -98,7 +117,7 @@ This is some calculators, and info I regularly use. <br />
 
 
 <!-- Make a bottle Calc --> 
-  <div class="container py-5">
+  <div class="container py-5" id="bottlecalc">
     <div class="row justify-content-center">
       <div class="col-md-6">
 
@@ -137,7 +156,7 @@ This is some calculators, and info I regularly use. <br />
   </div>
 
  <!-- Sugar wash Calc -->
-  <div class="container py-5">
+  <div class="container py-5" id="sugarwashcalc">
     <div class="row justify-content-center">
       <div class="col-md-6">
 
@@ -172,7 +191,7 @@ This is some calculators, and info I regularly use. <br />
 	
 
  <!-- Sugar wash estimator Calc -->
-  <div class="container py-5">
+  <div class="container py-5" id="sugarwashestimatorcalc">
     <div class="row justify-content-center">
       <div class="col-md-6">
 

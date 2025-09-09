@@ -666,6 +666,7 @@ a:hover { text-decoration: underline;  }
     font-size: 0 !important;
 }
 
+/*
 .thankbox {
 	@extend .col-md-8;
 	@extend .mx-auto;
@@ -678,6 +679,7 @@ a:hover { text-decoration: underline;  }
 	background: rgba(0,255,0,0.5) !important;
 	border: 5px dashed #538756 !important;
 }
+*/
 
 @media screen and (max-width: 576px){
     #rc-imageselect, .g-recaptcha {
@@ -694,6 +696,7 @@ a:hover { text-decoration: underline;  }
 	content: "\00BB  ";
 }
 
+/*
 .masonrygallery.card-columns {
   @include media-breakpoint-only(sm) {
     column-count: 1;
@@ -709,6 +712,8 @@ a:hover { text-decoration: underline;  }
   }
   column-gap: 0 !important;
 }
+*/
+
 .masonrygallery .card {
   width: auto !important;
   border: 0 !important;
@@ -738,6 +743,7 @@ aside.toc {
     position: relative;
     z-index: 99;
     padding-left: 3rem;
+    /*
     @include media-breakpoint-only(sm) {
         float: none;
         padding-left: 0;
@@ -746,6 +752,7 @@ aside.toc {
         float: none;
         padding-left: 0;
     }
+    */
 }
 
 .show_tracks .tracks { display: none; }
@@ -777,9 +784,11 @@ aside.toc {
 #lp_collection tr {
     line-height: 3em;
     cursor: pointer;
+    /*
     @include media-breakpoint-down(sm) {
         line-height: 1em;
     }
+    */
 }
 
 .svg16 { width: 16px; height: 16px; }

@@ -6,12 +6,10 @@
 
     {%  include google_analytics.html %}
 
-	{% capture styles %}
-    {% include main.css %}
-    {% endcapture %}
-	<style>
-	{{ styles | scssify }}
-	</style>
+	<link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
+	
+
+	
     {% include seo.html %}
 
 	{% feed_meta %}

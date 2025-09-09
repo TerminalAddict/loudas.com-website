@@ -1,7 +1,4 @@
----
-# Jekyll needs this front matter to compile the file
----
-
+@use "variables" as *;
 @use "bootstrap/scss/bootstrap" as *;
 
 // Your global extras that should ship in main.css:

@@ -1,5 +1,5 @@
 @use "variables" as *;
-@use "bootstrap/scss/bootstrap" as *;
+@use "../vendor/bootstrap/scss/bootstrap" as *;
 
 // Your global extras that should ship in main.css:
 @use "highlight-jekyll.scss" as *;

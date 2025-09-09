@@ -1,0 +1,10 @@
+---
+# Jekyll needs this front matter to compile the file
+---
+
+@use "bootstrap/scss/bootstrap" as *;
+
+// Your global extras that should ship in main.css:
+@use "highlight-jekyll.scss" as *;
+@use "jquery.dataTables.min.scss" as *;
+@use "ta_custom.scss" as *;

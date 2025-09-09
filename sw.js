@@ -16,6 +16,7 @@ var CACHE_NAME='{{ site.site_name | slugify }}-cache';
 /**/
 workbox.precaching.precacheAndRoute([
 {url: '/', revision: '{{ "now" | date: "%s" }}'},
+{url: '/assets/css/style.css', revision: '{{ "now" | date: "%s" }}'},
 {% for post in site.posts %}{url: '{{ post.url }}', revision: '{{ "now" | date: "%s" }}' },
 {% endfor %}{% for page in site.pages %}{% if page.url %}{url: '{{ page.url }}', revision: '{{ "now" | date: "%s" }}' },{% endif %}
 {% endfor %}{url: '/assets/js/bundle.js', revision: '{{ "now" | date: "%s" }}' }

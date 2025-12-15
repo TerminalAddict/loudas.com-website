@@ -1928,3 +1928,31 @@
     10: Happy Anniversary
     11: Lady
     12: Cool Change
+- artist: Bob Dylan
+  album_name: Slow Train Coming
+  image: slow_train_coming.jpg
+  tracks:
+    1: Gotta Serve Somebody
+    2: Precious Angel
+    3: I Believe In You
+    4: Slow Train
+    5: Gonna Change My Way Of Thinking	
+    6: Do Right To Me Baby (Do Unto Others)
+    7: When You Gonna Wake Up
+    8: Man Gave Names To All The Animals
+    9: When He Returns
+- artist: Amy Winehouse
+  album_name: Back To Black
+  image: amy_winehouse_back_to_black.jpg
+  tracks:
+    1: Rehab
+    2: You Know I'm No Good
+    3: Me & Mr Jones
+    4: Just Friends
+    5: Back To Black
+    6: Love Is A Losing Game
+    7: Tears Dry On Their Own
+    8: Wake Up Alone
+    9: Some Unholy War
+    10: He Can Only Hold Her
+    11: Addicted

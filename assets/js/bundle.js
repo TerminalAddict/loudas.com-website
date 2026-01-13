@@ -41,3 +41,4 @@ var svg='<svg version="1.1" id="TerminalAddictLogo" xmlns="http://www.w3.org/200
 "data:image/svg+xml;base64,"+btoa(svg);console.log("%c ","background-image: url("+svgDataUrl+"); padding-bottom: 100px; padding-left: 100px; margin: 20px; background-size: contain; background-position: center center; background-repeat: no-repeat; line-height: 20em;");var curyear=(new Date).getFullYear();console.log("%cAll code is copyright \u00a9 Paul Willard "+curyear,"font: 2em sans-serif; color: yellow; background-color: red;");console.log("%cAuthor: Paul Willard <paul@paulwillard.nz>","font: 1.5em sans-serif; color: yellow; background-color: red;");
 //# sourceMappingURL=pw.js.map
 //# sourceMappingURL=pw.js.map
+//# sourceMappingURL=pw.js.map

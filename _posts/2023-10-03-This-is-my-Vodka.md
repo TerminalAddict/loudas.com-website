@@ -148,7 +148,7 @@ Since April, when we first got together, we have been touring New Zeland as much
 Ami has absolutely been the highlight of 2023 for me. 👩‍❤️‍👨  
 or Kaiden ..... oh tough call. 👶  
 
-
+<!-- 
 Here's some selfie spam....  
 
 <div class="masonrygallery card-columns no-gutters">
@@ -161,3 +161,4 @@ Here's some selfie spam....
 </div>{% endunless %}{% endif %}{% endfor %}
 </div>
 </div>
+-->

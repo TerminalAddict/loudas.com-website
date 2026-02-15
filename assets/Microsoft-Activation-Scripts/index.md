@@ -19,28 +19,29 @@ description: Activating Windows and Office
 
 ### Method 1 - PowerShell (Windows 8 and later) ❤️
 
-1.   Open PowerShell (Not CMD). To do that, right-click on the Windows start menu and select PowerShell or Terminal.  
-2.   Copy and paste the code below and press enter  
-```
-# (this doesn't work currently) irm https://www.loudas.com/assets/Microsoft-Activation-Scripts/other_scripts/ | iex
+<details>
+  <summary>Click here for info</summary>
+  
+1.   Open PowerShell (Not CMD). To do that, right-click on the Windows start menu and select PowerShell or Terminal. <br />
+2.   Copy and paste the code below and press enter  <br />
+<!-- # (this doesn't work currently) irm https://www.loudas.com/assets/Microsoft-Activation-Scripts/other_scripts/ | iex -->
 irm https://get.activated.win | iex
-```
-3.   You will see the activation options. Choose (1) HWID for Windows activation. Choose (2) Ohook for Office activation.  
-4.   That's all.  
+<br />
+3.   You will see the activation options. Choose (1) HWID for Windows activation. Choose (2) Ohook for Office activation.  <br />
+4.   That's all.  <br />
+
+</details>
 
 ---
 
 ### Method 2 - Traditional (Windows 7 and later)
 
-<details>
-  <summary>Click here for info</summary>
 
 1.   Download the file using the links provided below.  <a href="MAS/All-In-One-Version-KL/MAS_AIO.cmd">MAS_AIO.cmd</a> <br />
 2.   Run the file named `MAS_AIO.cmd`  <br />
 3.   You will see the activation options, follow the on-screen instructions.  <br />
 4.   That's all.  <br />
 
-</details>
 
 ---
 
